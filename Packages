@@ -1,15 +1,21 @@
 Package: me.zsaaiq.springhooker
 Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: zSaaiq
-Installed-Size: 0
-Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 334
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/me.zsaaiq.springhooker_1.0_iphoneos-arm64.deb
 Size: 49074
 MD5sum: ee6b0a237043fa58e762a8477e02e1a0
 SHA1: 34132ce73a7371639ba01e7e073643609b02a756
 SHA256: 4fb900a1a444b25a132879d0e564f260abc0cf6143bc643feddad6526b94f4b1
-Section: Tweaks (SpringHooker)
-Description: SpringHooker modifyes some SpringBoard thingys
-Author: zSaaiq
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springhookerDp
+Description: Change settings that affect the SpringBoard!
+Tag: purpose::extension, compatible::ios13
+Author: Kevin Muller <kevin.felix90@gmx.de>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springhookerDp
+Dev: zsaaiq
+Icon: file:///Library/PreferenceBundles/SpringHooker.bundle/icon@2x.png
 Name: SpringHooker
+Sponsor: thebigboss.org <http://thebigboss.org>

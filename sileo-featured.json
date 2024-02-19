@@ -1,0 +1,12 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{263, 148}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "title": "SpringHooker",
+            "package": "me.zsaaiq.springhooker",
+            "url": "https://zsaaiq.github.io/jailbreakrepo//screenshots/tweak.png"
+        }
+    ]
+}
