@@ -1,0 +1,15 @@
+Package: me.zsaaiq.springhooker
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: zSaaiq
+Installed-Size: 0
+Depends: mobilesubstrate
+Filename: ./debs/me.zsaaiq.springhooker_1.0_iphoneos-arm64.deb
+Size: 49074
+MD5sum: ee6b0a237043fa58e762a8477e02e1a0
+SHA1: 34132ce73a7371639ba01e7e073643609b02a756
+SHA256: 4fb900a1a444b25a132879d0e564f260abc0cf6143bc643feddad6526b94f4b1
+Section: Tweaks (SpringHooker)
+Description: SpringHooker modifyes some SpringBoard thingys
+Author: zSaaiq
+Name: SpringHooker
