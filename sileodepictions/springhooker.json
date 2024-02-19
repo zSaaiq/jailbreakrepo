@@ -1,38 +1,43 @@
 {
-   "minVersion":"0.4",
-   "class":"DepictionTabView",
-   "tabs":[
-      {
-         "class":"DepictionStackView",
-         "tabname":"Details",
-         "views":[
-            {
-               "class":"DepictionSubheaderView",
-               "useMargins":true,
-               "title":"Compatible with iOS 13.0 +"
-            },
-            {
-               "class":"DepictionMarkdownView",
-               "markdown":"<p>SpringHooker changes SpringBoard values</p>",
-               "useSpacing":true,
-               "useRawFormat":true
-            }
-         ],
-         "xPadding":10
-      },
-      {
-         "class":"DepictionStackView",
-         "tabname":"Changelog",
-         "views":[
-            {
-               "class":"DepictionSubheaderView",
-               "title":"Version 1.0"
-            },
-            {
-               "class":"DepictionMarkdownView",
-               "markdown":"- Supports Rootless enviroments"
-            }
-         ]
-      }
-   ]
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "useMargins": true,
+          "title": "Compatible with iOS 13.0 +"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<p><b>Build for Rootless iOS enviroments</b>",
+          "useSpacing": true,
+          "useRawFormat": true
+        }
+      ],
+      "xPadding": 10
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Supported Rootless enviroments"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ],
+  "tintColor": "gray",
+  "headerImage": "https://github.com/zSaaiq/jailbreakrepo/blob/main/screenshots/springhooker/tweak.jpg"
 }
