@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,9 @@
       padding: 0;
       overflow: hidden;
       background-color: #000;
+      font-family: Arial, sans-serif;
     }
+
     #snow {
       position: fixed;
       top: 0;
@@ -20,6 +23,7 @@
       pointer-events: none;
       z-index: 1;
     }
+
     .flake {
       position: absolute;
       background-color: #fff;
@@ -27,6 +31,7 @@
       opacity: 0.8;
       pointer-events: none;
     }
+
     .centered {
       position: absolute;
       top: 50%;
@@ -35,34 +40,78 @@
       text-align: center;
       z-index: 2;
     }
+
     .button {
       display: inline-block;
       padding: 10px 20px;
       margin: 10px;
       border-radius: 5px;
       text-decoration: none;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
     }
-    .lydia {
-      background-color: #8B4513; /* Brown */
+
+    .cydia {
+      background-color: #8B4513;
       color: white;
     }
+
     .sileo {
-      background-color: #008080; /* Teal */
+      background-color: #008080;
       color: white;
     }
+
     .zebra {
-      background-color: #ffffff; /* White */
+      background-color: #e6dada;
       color: black;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    /* Style for iOS-shaped image */
+    .ios-image {
+      position: relative;
+      width: 100px;
+      margin: 20px auto;
+      display: flex;
+      align-items: center; /* Align text vertically */
+    }
+
+    .ios-image img {
+      width: 100%;
+      border-radius: 10px; /* iOS shape */
+    }
+
+    .ios-text {
+      color: gray;
+      margin-left: 50px; /* Adjust spacing between image and text */
+    }
+
+    @media only screen and (max-width: 420px) {
+      .ios-text {
+        margin-left: 0;
+        text-align: center; /* Center text on small screens */
+        margin-top: 10px; /* Add spacing between image and text on small screens */
+      }
     }
   </style>
 </head>
+
 <body>
   <div id="snow"></div>
   <div class="centered">
-    <h1 style="color: white;">Welcome to my Jailbreak repo!</h1>
-    <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://zsaaiq.github.io/jailbreakrepo" class="button lydia">Add to Cydia</a>
-    <a href="sileo://source/https://poomsmart.github.io/repo/https://zsaaiq.github.io/jailbreakrepo" class="button sileo">Add to Sileo</a>
-    <a href="zbra://sources/add/https://zsaaiq.github.io/jailbreakrepo" class="button zebra">Add to Zebra</a>
+    <h1>Welcome to my Jailbreak repo!</h1>
+    <a id="cydiaButton" class="button cydia">Add to Cydia</a>
+    <a id="sileoButton" class="button sileo">Add to Sileo</a>
+    <a id="zebraButton" class="button zebra">Add to Zebra</a>
+    <div class="ios-image">
+      <img src="images/SpringHooker.png" alt="iOS-shaped image">
+      <div class="ios-text">SpringHooker Supports iOS 15 Rootless</div>
+    </div>
   </div>
 
   <script>
@@ -87,6 +136,24 @@
     }
 
     createSnowflakes();
+
+    // Function to check if the device language is German
+    function isGerman() {
+      return navigator.language.startsWith('de');
+    }
+
+    // Function to change "Add to" text based on device language
+    function updateButtonText() {
+      if (isGerman()) {
+        document.getElementById('cydiaButton').innerText = 'Hinzufügen zu Cydia';
+        document.getElementById('sileoButton').innerText = 'Hinzufügen zu Sileo';
+        document.getElementById('zebraButton').innerText = 'Hinzufügen zu Zebra';
+      }
+    }
+
+    // Update button text on page load
+    updateButtonText();
   </script>
 </body>
+
 </html>
