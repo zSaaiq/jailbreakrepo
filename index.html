@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to my Jailbreak repo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000;
+    }
+    #snow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+    .flake {
+      position: absolute;
+      background-color: #fff;
+      border-radius: 50%;
+      opacity: 0.8;
+      pointer-events: none;
+    }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 2;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="snow"></div>
+  <div class="centered">
+    <h1 style="color: white;">Welcome to my Jailbreak repo!</h1>
+    <a href="cydia://url/https://yourrepo.com" class="button">Add to Cydia</a>
+    <a href="sileo://url/https://yourrepo.com" class="button">Add to Sileo</a>
+    <a href="zbra://url/https://yourrepo.com" class="button">Add to Zebra</a>
+  </div>
+
+  <script>
+    function createSnowflakes() {
+      const snowContainer = document.getElementById('snow');
+      const flakes = [];
+      const numFlakes = 50;
+
+      for (let i = 0; i < numFlakes; i++) {
+        const flake = document.createElement('div');
+        flake.className = 'flake';
+        flake.style.width = Math.random() * 8 + 'px';
+        flake.style.height = flake.style.width;
+        flake.style.background = 'rgba(255, 255, 255, ' + (Math.random() * 0.5 + 0.5) + ')';
+        flake.style.left = Math.random() * 100 + '%';
+        flake.style.animationDuration = Math.random() * 4 + 2 + 's';
+        flakes.push(flake);
+        snowContainer.appendChild(flake);
+      }
+
+      return flakes;
+    }
+
+    createSnowflakes();
+  </script>
+</body>
+</html>
