@@ -14,9 +14,8 @@ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springhooke
 Description: Change settings that affect the SpringBoard!
 Tag: purpose::extension, compatible::ios13
 Author: Kevin Muller <kevin.felix90@gmx.de>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springhookerDp
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depiction/springhooker.html
 Dev: zsaaiq
 Icon: file:///Library/PreferenceBundles/SpringHooker.bundle/icon@2x.png
 Name: SpringHooker
-Sponsor: thebigboss.org <http://thebigboss.org>
-
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepiction/springhooker.json
