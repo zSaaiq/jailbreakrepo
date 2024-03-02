@@ -14,6 +14,40 @@ Description: Control Center module to toggle MobileGoose on/off
 Author: Capt Inc, zsaaiq <kevin.felix90@gmx.de>
 Name: MobileGooseModule
 
+Package: com.pixelomer.colorfulgoose
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq
+Installed-Size: 168
+Depends: com.pixelomer.mobilegoose (>=2.0)
+Filename: ./debs/com.pixelomer.colorfulgoose_1.3_iphoneos-arm64.deb
+Size: 4548
+MD5sum: 0fe5cc4fdd0ea066ba17e10b79754684
+SHA1: 46a98df8d3a2ab0a63a3af94eb9456dd645c1bae
+SHA256: 40f6f978ad31026b7dbc9471b6fe57bf7007c38706507b88c03ea9a140c9de96
+Section: Tweaks
+Priority: optional
+Description: Add color to your goose
+Author: PixelOmer, zsaaiq
+Name: ColorfulGoose
+
+Package: com.pixelomer.joethegoose
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq
+Installed-Size: 172
+Depends: com.pixelomer.mobilegoose (>=2.0)
+Filename: ./debs/com.pixelomer.joethegoose_1.0.2_iphoneos-arm64.deb
+Size: 5266
+MD5sum: 5300f8f4094098ceb346fc7255f9e1de
+SHA1: cbf2a1c62f117aa371fba30a34ecbb6114ffdf4b
+SHA256: affd056e3a40a02cef488e0c175e9ec362550ba2daeb88beb6c3df71e7f6e79f
+Section: Tweaks
+Priority: optional
+Description: A name tag for your goose
+Author: PixelOmer, zsaaiq
+Name: Goose Name Tag
+
 Package: com.pixelomer.mobilegoose
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -21,10 +55,10 @@ Maintainer: zsaaiq
 Installed-Size: 1000
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.pixelomer.mobilegoose_2.0_iphoneos-arm64.deb
-Size: 597810
-MD5sum: 7564c0eb2e069f6c039b30e46521e5f1
-SHA1: b60509113de5faf721cf223132823fa37c6951a7
-SHA256: c1959c8008192dd075403c54e33f2cc5197dbc957394a0983c3fc95e8dc3d9f0
+Size: 597960
+MD5sum: 2f5bd4c70825475703037d5c5525421a
+SHA1: a37ff86f8c391e9dbec318aeee0ea83931957992
+SHA256: 50aaf4b12342616165d6aea0dc84cba4329f314700536f953c0cd12dacf86609
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
