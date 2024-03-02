@@ -32,8 +32,21 @@ body {
   text-align: center;
   z-index: 2;
 }
+.button-container {
+  margin-top: 20px; /* Add some space at the top */
+}
+@media only screen and (max-width: 414px) {
+  .centered {
+    padding: 20px;
+  }
+  .ios-image {
+    margin-bottom: 20px;
+  }
+}
 
 .button {
+  display: block;
+  margin-bottom: 10px;
   display: inline-block;
   padding: 10px 20px;
   margin: 10px;

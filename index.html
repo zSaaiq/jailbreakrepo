@@ -5,15 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to my Jailbreak repo</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      overflow-y: auto; /* Add vertical scrollbar when content overflows */
+      overscroll-behavior-y: none; /* Prevent page from scrolling when reaching top/bottom */
+    }
+
+    /* Adjustments for smaller screens */
+    @media only screen and (max-width: 414px) {
+      .centered {
+        padding: 20px;
+      }
+      .ios-image {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <div id="snow"></div>
   <div class="centered">
     <h1>Welcome to my Jailbreak repo!</h1>
-    <a button id="cydiaButton" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://zsaaiq.github.io/jailbreakrepo" class="button cydia">Add to Cydia</a>
-    <a button id="sileoButton" href="sileo://source/https://zsaaiq.github.io/jailbreakrepo"class="button sileo">Add to Sileo</a>
-    <a button id="zebraButton" href="zbra://sources/add/https://zsaaiq.github.io/jailbreakrepo" class="button zebra">Add to Zebra</a>
+    <div class="button-container">
+      <a button id="cydiaButton" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://zsaaiq.github.io/jailbreakrepo" class="button cydia">Add to Cydia</a>
+      <a button id="sileoButton" href="sileo://source/https://zsaaiq.github.io/jailbreakrepo" class="button sileo">Add to Sileo</a>
+      <a button id="zebraButton" href="zbra://sources/add/https://zsaaiq.github.io/jailbreakrepo" class="button zebra">Add to Zebra</a>
+    </div>
     <h1>SpringHooker</h1>
     <div class="ios-image">
       <img src="images/SpringHooker.png" alt="iOS-shaped image">
@@ -24,16 +42,19 @@
       <img src="images/MobileGoose.png" alt="iOS-shaped image">
       <div class="ios-text">Supports iOS 15-16 Rootless</div>
     </div>
-    <h1>MobileGooseModule</h1>
+    <h1>MobileGooseCCToggle</h1>
     <div class="ios-image">
+      <img src="images/MobileGooseCCModule.png" alt="iOS-shaped image">
       <div class="ios-text">Supports iOS 15-16 Rootless</div>
     </div>
     <h1>ColorfulGoose</h1>
     <div class="ios-image">
+      <img src="images/colorfulgoose.png" alt="iOS-shaped image">
       <div class="ios-text">Supports iOS 15-16 Rootless</div>
     </div>
     <h1>Goose Name Tag</h1>
     <div class="ios-image">
+      <img src="images/goosename.jpg.webp" alt="iOS-shaped image">
       <div class="ios-text">Supports iOS 15-16 Rootless</div>
     </div>
   </div>
@@ -59,6 +80,7 @@
     }
 
     createSnowflakes();
+
     function isGerman() {
       return navigator.language.startsWith('de');
     }
@@ -70,7 +92,7 @@
         document.getElementById('zebraButton').innerText = 'Hinzufügen zu Zebra';
       }
     }
-      updateButtonText();
+    updateButtonText();
   </script>
 </body>
 </html>
