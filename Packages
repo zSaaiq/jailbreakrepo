@@ -64,6 +64,23 @@ Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
 Name: MobileGoose
 
+Package: dev.traurige.batterybuddy
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 432
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/dev.traurige.batterybuddy_1.4_iphoneos-arm64.deb
+Size: 36326
+MD5sum: 4a39ce78d01b9447dcbaef1ae6bbd29f
+SHA1: 1cc80b7ed010823f77a2c25d940f16d27460918f
+SHA256: 7dacaf0c7a0b25c71971488205f6dfd598ada377a45ab8e07dfb1f7684329870
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Name: BatteryBuddy
+
 Package: me.zsaaiq.springhooker
 Version: 1.0
 Architecture: iphoneos-arm64
