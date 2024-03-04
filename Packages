@@ -64,6 +64,22 @@ Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
 Name: MobileGoose
 
+Package: me.zsaaiq.acccustomonoff
+Version: 1.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq <kevin.felix90@gmx.de>
+Installed-Size: 32
+Depends: firmware (>=15.0), mobilesubstrate, weeb.lililie.accentcustom
+Filename: ./debs/me.zsaaiq.acccustomonoff_1.0-2+debug_iphoneos-arm64.deb
+Size: 22422
+MD5sum: e78c241a1cb9cb9c3dbeade7409f3072
+SHA1: 3cdd31342e5c861b1734011dac20ec2f7e95ab89
+SHA256: e171573d0f506b841a0b2db34c4b785e3025ba208ebc3ee9e2b557d8df871452
+Section: Tweaks
+Description: Control Center module to toggle Accent Custom on/off
+Author: zsaaiq <kevin.felix90@gmx.de>
+Name: AccCustomOnOff
+
 Package: me.zsaaiq.springhooker
 Version: 1.0
 Architecture: iphoneos-arm64
