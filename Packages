@@ -65,16 +65,16 @@ Author: pixelomer, zsaaiq
 Name: MobileGoose
 
 Package: me.zsaaiq.acccustomonoff
-Version: 1.0-2+debug
+Version: 1.0-3+debug
 Architecture: iphoneos-arm64
 Maintainer: zsaaiq <kevin.felix90@gmx.de>
 Installed-Size: 32
-Depends: firmware (>=15.0), mobilesubstrate, weeb.lililie.accentcustom
-Filename: ./debs/me.zsaaiq.acccustomonoff_1.0-2+debug_iphoneos-arm64.deb
-Size: 22422
-MD5sum: e78c241a1cb9cb9c3dbeade7409f3072
-SHA1: 3cdd31342e5c861b1734011dac20ec2f7e95ab89
-SHA256: e171573d0f506b841a0b2db34c4b785e3025ba208ebc3ee9e2b557d8df871452
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./debs/me.zsaaiq.acccustomonoff_1.0-3+debug_iphoneos-arm64.deb
+Size: 22404
+MD5sum: 2bf38df8667ecab668e0c8399e0a5f63
+SHA1: e4b12c7fca054359d45a29e86ce9616267142ab5
+SHA256: c61889defe6941be70ca97e0252f8ed788bce352b90e55ed012efd7cb45ae37f
 Section: Tweaks
 Description: Control Center module to toggle Accent Custom on/off
 Author: zsaaiq <kevin.felix90@gmx.de>
