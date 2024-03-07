@@ -64,6 +64,40 @@ Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
 Name: MobileGoose
 
+Package: com.ryannair05.audiosnapshotserver
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair
+Installed-Size: 168
+Replaces: io.ominousness.ass, me.conorthedev.audiosnapshotserver
+Provides: io.ominousness.ass, me.conorthedev.audiosnapshotserver
+Filename: ./debs/com.ryannair05.audiosnapshotserver_2.3_iphoneos-arm64.deb
+Size: 4752
+MD5sum: bc70ca61b318bca8268de8fb4b1f49d0
+SHA1: b1aa99656fd11111435a66281093e9026bff78bc
+SHA256: 0eb2dc3e18c624895486af88a28a7868d41959f407873ad7179a89921629d4d5
+Section: Development
+Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via TCP/IP
+Author: Ryan Nair and Nepeta
+Name: AudioSnapshotServer
+
+Package: com.ryannair05.libmitsuhaforever
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair
+Installed-Size: 384
+Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
+Replaces: me.nepeta.libmitsuha, me.conorthedev.libmitsuhaforever
+Filename: ./debs/com.ryannair05.libmitsuhaforever_2.0_iphoneos-arm64.deb
+Size: 59116
+MD5sum: 7265772ea3ea2240a8ecd4614d8024ec
+SHA1: 7da2dfc1c7ba18b92199694207af246426b1f9e9
+SHA256: 2f6db5f29168cbf9b7bc1132900a0fe0ba52b7b3957ad7fd04d4bb1b0fa63072
+Section: Development
+Description: An advanced audio visualizer library for Mitsuha Forever
+Author: Ryan Nair, ConorTheDev, Nepeta
+Name: libmitsuhaforever
+
 Package: me.zsaaiq.acccustomonoff
 Version: 1.0
 Architecture: iphoneos-arm64
