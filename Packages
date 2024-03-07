@@ -68,13 +68,13 @@ Package: me.zsaaiq.acccustomonoff
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: zsaaiq <kevin.felix90@gmx.de>
-Installed-Size: 32
+Installed-Size: 196
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./debs/me.zsaaiq.acccustomonoff_1.0_iphoneos-arm64.deb
-Size: 22302
-MD5sum: bf5529017aecac322d31c296de1cf5f8
-SHA1: 7587f7cd988c35b98ba14496c5c398d17bb84dc0
-SHA256: d77d8eda6b64e62c56b0c2b35a820c588cc186169491bc26f0468aaaafe25fce
+Size: 25842
+MD5sum: 0aa07c2135117b00513183463a6b3fb1
+SHA1: b08dcee6d25582f1084b8efab9d6df4d3af1a3a1
+SHA256: ceba042454fe047df3278f4a335ca8743588fb7760918b6fa2f1ac8bb06c9eee
 Section: Tweaks
 Description: Control Center module to toggle Accent Custom on/off
 Author: zsaaiq <kevin.felix90@gmx.de>
