@@ -115,6 +115,23 @@ Description: Universal audio visualizer for iOS
 Author: Ryan Nair, ConorTheDev, and Nepeta
 Name: Mitsuha Forever
 
+Package: com.ryannair05.mitsuhaforever
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 860
+Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
+Replaces: com.ryannair05.mitsuhaforever (=1.4.1), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (=1.4.0)
+Filename: ./debs/com.ryannair05.mitsuhaforever_2.1_iphoneos-arm64.deb
+Size: 72838
+MD5sum: b85c27a744d4940e917131998d53780c
+SHA1: e5e17c1723accdc65b0426bcd60082c7167476d4
+SHA256: c7e839883ce0c8131cf4e52413e06d7d7ef5a6533f2cdb5d460c6512b9c7bf7c
+Section: Tweaks
+Description: Universal audio visualizer for iOS
+Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
+Name: Mitsuha Forever
+
 Package: me.zsaaiq.acccustomonoff
 Version: 1.0
 Architecture: iphoneos-arm64
