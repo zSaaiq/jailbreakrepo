@@ -20,7 +20,7 @@
             {
                "class":"DepictionMarkdownView",
                "useSpacing":true,
-               "markdown":"*Supports iOS 15 through 16*\n\Mitsuha Forever is an Universal audio visualizer for iOS currently Music Support is  removed and Preferences are broken. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working."
+               "markdown":"*Supports iOS 15 through 16*\n\Mitsuha Forever is an Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working."
             },
             {
                "class":"DepictionSeparatorView"

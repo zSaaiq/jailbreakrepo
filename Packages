@@ -99,34 +99,17 @@ Author: Ryan Nair, ConorTheDev, Nepeta
 Name: libmitsuhaforever
 
 Package: com.ryannair05.mitsuhaforever
-Version: 2.0
+Version: 2.2
 Architecture: iphoneos-arm64
 Maintainer: zSaaiq
-Installed-Size: 840
-Depends: mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=1.4.0), ws.hbang.alderis, firmware (>=15.0)
-Replaces: io.c0ldra1n.mitsuha, io.ominousness.mitsuhaxi, me.nepeta.mitsuhainfinity, me.nepeta.mitsuhainfinity-lockscreen
-Filename: ./debs/com.ryannair05.mitsuhaforever_2.0_iphoneos-arm64.deb
-Size: 75274
-MD5sum: d9a9c32eb2db98d0ef5488fe394616e4
-SHA1: 74aac0a06cb96e90be8ec3e3f6c9fd8b96c571ee
-SHA256: a2d771ede31747234d9ad339c5ffd060974c54902fcdcf5cfdd81f0573dc7931
-Section: Tweaks
-Description: Universal audio visualizer for iOS
-Author: Ryan Nair, ConorTheDev, and Nepeta
-Name: Mitsuha Forever
-
-Package: com.ryannair05.mitsuhaforever
-Version: 2.1
-Architecture: iphoneos-arm64
-Maintainer: zSaaiq
-Installed-Size: 860
+Installed-Size: 880
 Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
 Replaces: com.ryannair05.mitsuhaforever (=1.4.1), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2)
-Filename: ./debs/com.ryannair05.mitsuhaforever_2.1_iphoneos-arm64.deb
-Size: 72440
-MD5sum: 735ad8d511a188ba8da43a908e88acf3
-SHA1: ec5dd7bd9b4c7ee2e55c82aaed8e6ee2add0e9fb
-SHA256: ba8b01b3fec1a2bd869a2b0e551b378d2621d0992b1569bf18a1302bc6b1ea5a
+Filename: ./debs/com.ryannair05.mitsuhaforever_2.2_iphoneos-arm64.deb
+Size: 73376
+MD5sum: 66e6450fb72f87ec11505d5d317aa879
+SHA1: eeb18fc5de0ecca44b2fb649c6acb4f38cf4dc9e
+SHA256: 2411d940baf03d089f915b4809df87c6142e3b85b5dfdf31c6fbd88f9aee91f4
 Section: Tweaks
 Description: Universal audio visualizer for iOS currently Music Support is  removed and Preferences are broken. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
