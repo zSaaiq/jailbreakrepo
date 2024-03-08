@@ -1,0 +1,73 @@
+{
+   "class":"DepictionTabView",
+   "minVersion":"0.4",
+   "tabs":[
+      {
+         "class":"DepictionStackView",
+         "tabname":"Details",
+         "views":[
+            {
+               "screenshots":[
+                  {
+                     "accessibilityText":"Screenshot",
+                     "url":" https://zsaaiq.github.io/jailbreakrepo/screenshots/mitsuhaforever/Preview.png"
+                  }
+               ],
+               "class":"DepictionScreenshotsView",
+               "itemCornerRadius":6,
+               "itemSize":"{160, 284}"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "useSpacing":true,
+               "markdown":"*Supports iOS 15 through 16*\n\Mitsuha Forever is an Universal audio visualizer for iOS currently Music Support is  removed and Preferences are broken. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working."
+            },
+            {
+               "class":"DepictionSeparatorView"
+            },
+            {
+               "class":"DepictionHeaderView",
+               "title":"Information"
+            },
+            {
+               "class":"DepictionTableTextView",
+               "title":"Developer",
+               "text":"zSaaiq ryannair05 nepeta c0ldra1n"
+            },
+            {
+               "class":"DepictionTableTextView",
+               "title":"Version",
+               "text":"1.0"
+            },
+            {
+               "class":"DepictionTableTextView",
+               "title":"iOS Versions",
+               "text":"15.0 - 16.6.1"
+            }
+         ]
+      },
+      {
+         "class":"DepictionStackView",
+         "tabname":"Changelog",
+         "views":[
+            {
+               "class":"DepictionLayerView",
+               "views":[
+                  {
+                     "fontSize":16,
+                     "class":"DepictionLabelView",
+                     "fontWeight":"bold",
+                     "text":"1.0"
+                  }
+               ]
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"Initial release recompiled for rootless."
+            }
+         ]
+      }
+   ],
+   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/screenshots/mitsuhaforever/Preview.png",
+   "tintColor":"#0A1247"
+}

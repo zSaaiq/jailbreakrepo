@@ -121,32 +121,19 @@ Architecture: iphoneos-arm64
 Maintainer: zSaaiq
 Installed-Size: 860
 Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
-Replaces: com.ryannair05.mitsuhaforever (=1.4.1), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (=1.4.0)
+Replaces: com.ryannair05.mitsuhaforever (=1.4.1), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2)
 Filename: ./debs/com.ryannair05.mitsuhaforever_2.1_iphoneos-arm64.deb
-Size: 72838
-MD5sum: b85c27a744d4940e917131998d53780c
-SHA1: e5e17c1723accdc65b0426bcd60082c7167476d4
-SHA256: c7e839883ce0c8131cf4e52413e06d7d7ef5a6533f2cdb5d460c6512b9c7bf7c
+Size: 72440
+MD5sum: 735ad8d511a188ba8da43a908e88acf3
+SHA1: ec5dd7bd9b4c7ee2e55c82aaed8e6ee2add0e9fb
+SHA256: ba8b01b3fec1a2bd869a2b0e551b378d2621d0992b1569bf18a1302bc6b1ea5a
 Section: Tweaks
-Description: Universal audio visualizer for iOS
+Description: Universal audio visualizer for iOS currently Music Support is  removed and Preferences are broken. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
+Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MitsuhaForever.png
 Name: Mitsuha Forever
-
-Package: me.zsaaiq.acccustomonoff
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq <kevin.felix90@gmx.de>
-Installed-Size: 196
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./debs/me.zsaaiq.acccustomonoff_1.0_iphoneos-arm64.deb
-Size: 25842
-MD5sum: 0aa07c2135117b00513183463a6b3fb1
-SHA1: b08dcee6d25582f1084b8efab9d6df4d3af1a3a1
-SHA256: ceba042454fe047df3278f4a335ca8743588fb7760918b6fa2f1ac8bb06c9eee
-Section: Tweaks
-Description: Control Center module to toggle Accent Custom on/off
-Author: zsaaiq <kevin.felix90@gmx.de>
-Name: AccCustomOnOff
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
 
 Package: me.zsaaiq.springhooker
 Version: 1.0

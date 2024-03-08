@@ -77,7 +77,12 @@ h1 {
   color: white;
   z-index: 2;
 }
-
+h2 {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: white;
+  z-index: 2;
+}
 /* Style for iOS-shaped image */
 .ios-image {
   position: relative;
