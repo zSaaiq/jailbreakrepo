@@ -122,14 +122,14 @@ Package: com.ryannair05.mitsuhaforever
 Version: 2.2.1
 Architecture: iphoneos-arm64
 Maintainer: zSaaiq
-Installed-Size: 868
+Installed-Size: 864
 Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
 Replaces: com.ryannair05.mitsuhaforever (<=2), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2), com.addiezone.onemitsuhadopaminesettings, com.addiezone.twomitsuhadopaminesettings, com.addiezone.threemitsuhadopaminesettings, com.addiezone.fourmitsuhadopaminesettings, com.addiezone.fivemitsuhadopaminesettings, com.addiezone.sixmitsuhadopaminesettings
 Filename: ./debs/com.ryannair05.mitsuhaforever_2.2.1_iphoneos-arm64.deb
-Size: 71574
-MD5sum: 6d5fa1c76ccb4bc4c0799ffd5ec51ae6
-SHA1: 180a5334431f982ce0b4bff3c356fc525463f96b
-SHA256: 5b748142ed865abac2e1daaa050a44525b7754540a54f0927424b8df92256592
+Size: 71260
+MD5sum: 6dca1b127f498153297c344154a2b245
+SHA1: cd0a983ab3a5c673b670968092de89d151274e02
+SHA256: 42d01cd364e05f325c30fa4b4f9f2fb251a394aedef6e4f28cf195adc6105226
 Section: Tweaks
 Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
