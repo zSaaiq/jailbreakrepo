@@ -98,6 +98,23 @@ Description: An advanced audio visualizer library for Mitsuha Forever
 Author: Ryan Nair, ConorTheDev, Nepeta
 Name: libmitsuhaforever
 
+Package: com.ryannair05.libmitsuhaforever
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 384
+Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
+Replaces: me.nepeta.libmitsuha, me.conorthedev.libmitsuhaforever
+Filename: ./debs/com.ryannair05.libmitsuhaforever_2.1_iphoneos-arm64.deb
+Size: 59168
+MD5sum: 243fa041e84f79b1d75193fe2749ac1d
+SHA1: 62ca2dbcad04fd25d7a783336836f0a415a2a0ce
+SHA256: d1fcd5de195921e18a1ca0e83ef317e2b9fe2a1b6c8307046d2dd5beac6c1688
+Section: Development
+Description: An advanced audio visualizer library for Mitsuha Forever
+Author: Ryan Nair, ConorTheDev, Nepeta
+Name: libmitsuhaforever
+
 Package: com.ryannair05.mitsuhaforever
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -134,6 +151,26 @@ Section: Tweaks
 Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
 Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/
+Icon: Prefs/Resources/icon@3x.png
+Name: Mitsuha Forever
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
+
+Package: com.ryannair05.mitsuhaforever
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1036
+Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
+Replaces: com.ryannair05.mitsuhaforever (<=2), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2), com.addiezone.onemitsuhadopaminesettings, com.addiezone.twomitsuhadopaminesettings, com.addiezone.threemitsuhadopaminesettings, com.addiezone.fourmitsuhadopaminesettings, com.addiezone.fivemitsuhadopaminesettings, com.addiezone.sixmitsuhadopaminesettings
+Filename: ./debs/com.ryannair05.mitsuhaforever_2.2.2_iphoneos-arm64.deb
+Size: 74794
+MD5sum: 141727ecb5dc40d7c239459587bcd29d
+SHA1: 2552e35393e9e7d0ae3e86a137e495b6bffdf705
+SHA256: 5d7f0ffb40531060e7cf6f57afbda84a60ff1b756ce9d866a18c294d78c4c34f
+Section: Tweaks
+Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
+Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
+Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/index.html
 Icon: Prefs/Resources/icon@3x.png
 Name: Mitsuha Forever
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
