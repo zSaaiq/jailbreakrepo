@@ -106,10 +106,10 @@ Installed-Size: 880
 Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
 Replaces: com.ryannair05.mitsuhaforever (=1.4.1), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2)
 Filename: ./debs/com.ryannair05.mitsuhaforever_2.2_iphoneos-arm64.deb
-Size: 73274
-MD5sum: 4ab8049b252db9fb4e59718ced52f7bd
-SHA1: 107f462d10516a004486f9a07c29ef00150c429a
-SHA256: bbd9eb1d9329e30dce78050c7bbe690a99763132371282426eac3b193439f77e
+Size: 71386
+MD5sum: d5ab55db845a7309aff4fba1f184c12f
+SHA1: 5ab015d5829ff9a87fe861d7d6dfdeea250e51cb
+SHA256: 39b56ba0e813f9bc9f4b1c50a532d445fb3cf0c6b50927824330a4cdabecb1f1
 Section: Tweaks
 Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
