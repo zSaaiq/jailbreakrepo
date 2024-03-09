@@ -10,7 +10,7 @@
                "screenshots":[
                   {
                      "accessibilityText":"Screenshot",
-                     "url":" https://zsaaiq.github.io/jailbreakrepo/screenshots/mitsuhaforever/Preview.png"
+                     "url":" https://zsaaiq.github.io/jailbreakrepo/screenshots/mitsuhaforever/Preview.PNG"
                   }
                ],
                "class":"DepictionScreenshotsView",
@@ -20,7 +20,7 @@
             {
                "class":"DepictionMarkdownView",
                "useSpacing":true,
-               "markdown":"*Supports iOS 15 through 16*\n\Mitsuha Forever is an Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working."
+               "markdown":"*Supports iOS 15 through 16*\n\Mitsuha Forever is an Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Lockscreen Bottom, Lockscreen Music Player and Springboard are working."
             },
             {
                "class":"DepictionSeparatorView"
@@ -68,6 +68,6 @@
          ]
       }
    ],
-   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/screenshots/mitsuhaforever/Preview.png",
+   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/screenshots/mitsuhaforever/Preview.PNG",
    "tintColor":"#0A1247"
 }
