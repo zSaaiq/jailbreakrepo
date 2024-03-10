@@ -102,14 +102,14 @@ Package: com.ryannair05.libmitsuhaforever
 Version: 2.1
 Architecture: iphoneos-arm64
 Maintainer: zSaaiq
-Installed-Size: 384
+Installed-Size: 224
 Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
 Replaces: me.nepeta.libmitsuha, me.conorthedev.libmitsuhaforever
 Filename: ./debs/com.ryannair05.libmitsuhaforever_2.1_iphoneos-arm64.deb
-Size: 59168
-MD5sum: 243fa041e84f79b1d75193fe2749ac1d
-SHA1: 62ca2dbcad04fd25d7a783336836f0a415a2a0ce
-SHA256: d1fcd5de195921e18a1ca0e83ef317e2b9fe2a1b6c8307046d2dd5beac6c1688
+Size: 41432
+MD5sum: a9b3fe58ecfa01c1fdc814fb41093b14
+SHA1: 379b6894c162ccfecfddd92a356545d3d38a7f03
+SHA256: 6e336922ea15fae17b11f12b897091342814cdfe3ed92d2f7f8c8c5b42b8dfe1
 Section: Development
 Description: An advanced audio visualizer library for Mitsuha Forever
 Author: Ryan Nair, ConorTheDev, Nepeta
