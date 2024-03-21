@@ -175,6 +175,22 @@ Icon: Prefs/Resources/icon@3x.png
 Name: Mitsuha Forever
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
 
+Package: com.zsaaiq.ytmusicnocast
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq <kevin.felix90@gmx.de>
+Installed-Size: 168
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./debs/com.zsaaiq.ytmusicnocast_1.0_iphoneos-arm64.deb
+Size: 3162
+MD5sum: 73b69ac19e17176baa18a57d1b8c355d
+SHA1: 6adb346bbd2a32a4c335afaa6376b4fe2e67dd31
+SHA256: daef5fd740abe54b1bae135de2381a59bc19cedb056650b612fab12319fb1f89
+Section: Tweaks
+Description: hides the Google cast button in the whole YTMusic app.
+Author: zSaaiq <kevin.felix90@gmx.de>
+Name: YTMusicNoCast
+
 Package: me.zsaaiq.springhooker
 Version: 1.0
 Architecture: iphoneos-arm64
