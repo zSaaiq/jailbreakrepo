@@ -68,18 +68,19 @@ Name: MobileGoose
 Package: com.ryannair05.audiosnapshotserver
 Version: 2.3
 Architecture: iphoneos-arm64
-Maintainer: Ryan Nair
+Maintainer: zSaaiq
 Installed-Size: 168
 Replaces: io.ominousness.ass, me.conorthedev.audiosnapshotserver
 Provides: io.ominousness.ass, me.conorthedev.audiosnapshotserver
 Filename: ./debs/com.ryannair05.audiosnapshotserver_2.3_iphoneos-arm64.deb
-Size: 4752
-MD5sum: bc70ca61b318bca8268de8fb4b1f49d0
-SHA1: b1aa99656fd11111435a66281093e9026bff78bc
-SHA256: 0eb2dc3e18c624895486af88a28a7868d41959f407873ad7179a89921629d4d5
+Size: 4922
+MD5sum: 8ad79cd8840e7c570c46a49f4a365414
+SHA1: 4ce3e2acfae30c7368eb0ca057a21e289940508a
+SHA256: c859746d3fab90016ddc3951a5d089d27ca7f71c7337b2cbf9e1ca2a6ae09f67
 Section: Development
 Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via TCP/IP
 Author: Ryan Nair and Nepeta
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MitsuhaForever.png
 Name: AudioSnapshotServer
 
 Package: com.ryannair05.libmitsuhaforever
@@ -124,13 +125,14 @@ Installed-Size: 224
 Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
 Replaces: me.nepeta.libmitsuha, me.conorthedev.libmitsuhaforever
 Filename: ./debs/com.ryannair05.libmitsuhaforever_2.2_iphoneos-arm64.deb
-Size: 39926
-MD5sum: bbdbfc00d3c45a06b2ac5aaf02aefaa4
-SHA1: 2e6c5a34778ed67651d45b8cfdcbc6dee500fd80
-SHA256: 880b917cbd17a24f2e6334d4944a45eb2789796f3ebe73c81f737ec6e7de8064
+Size: 40022
+MD5sum: 3d6bc2ed98085143d102808e2d7a82ea
+SHA1: 018a63a8b1a260ab8b2949594286db34cfce1678
+SHA256: cee90905ed5c15a0bf2aea24a343c3635d2f31af5c356d640a61d9c9523f89a3
 Section: Development
 Description: An advanced audio visualizer library for Mitsuha Forever
 Author: Ryan Nair, ConorTheDev, Nepeta
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MitsuhaForever.png
 Name: libmitsuhaforever
 
 Package: com.ryannair05.mitsuhaforever
@@ -201,15 +203,15 @@ Installed-Size: 1092
 Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
 Replaces: com.ryannair05.mitsuhaforever (<=2), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2), com.addiezone.onemitsuhadopaminesettings, com.addiezone.twomitsuhadopaminesettings, com.addiezone.threemitsuhadopaminesettings, com.addiezone.fourmitsuhadopaminesettings, com.addiezone.fivemitsuhadopaminesettings, com.addiezone.sixmitsuhadopaminesettings
 Filename: ./debs/com.ryannair05.mitsuhaforever_2.2.3_iphoneos-arm64.deb
-Size: 97600
-MD5sum: 0ea6cbcf3f6c3276e815b5dbc6acee30
-SHA1: 2ca6b691d77b7ebaba45728dc1ce52aa78b24267
-SHA256: 141ef28822ef6ddf82fdc55a589f0f4b5263b76ec50d67fdd952d2001f251eff
+Size: 97670
+MD5sum: c55d5eef916f1d8daac536cda2ac98f0
+SHA1: 40f5ec2fd34db0a8dad1cdf07b2ab6621626b9ad
+SHA256: e52c041f73beb4b4602a53ff34f4d72b8ad966d6a6db3156852d30b717fe5dbb
 Section: Tweaks
 Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
 Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/index.html
-Icon: file:///var/jb/Library/PreferenceBundles/MitsuhaForeverPrefs.bundle/icon_83.5@2x.png
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MitsuhaForever.png
 Name: Mitsuha Forever
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
 
