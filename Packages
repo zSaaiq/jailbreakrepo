@@ -175,6 +175,22 @@ Icon: Prefs/Resources/icon@3x.png
 Name: Mitsuha Forever
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
 
+Package: com.zsaaiq.chefkochnoads
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq <kevin.felix90@gmx.de>
+Installed-Size: 168
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./debs/com.zsaaiq.chefkochnoads_1.0_iphoneos-arm64.deb
+Size: 5674
+MD5sum: 82aae399e6565502e52c6bf025fd7601
+SHA1: 92988eb2e84f740dff43a4b6ec5734474e1e1ef4
+SHA256: bf96b9823b5e77eef363b0b844dd16610650c450e3fa735cb845fa9a5e090e89
+Section: Tweaks
+Description: hides ads in the Chefkoch Application on iOS.
+Author: zSaaiq <kevin.felix90@gmx.de>
+Name: ChefkochNoAds
+
 Package: com.zsaaiq.ytmusicnocast
 Version: 1.0
 Architecture: iphoneos-arm64
