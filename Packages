@@ -229,3 +229,20 @@ Icon: file:///Library/PreferenceBundles/SpringHooker.bundle/icon@2x.png
 Name: SpringHooker
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: me.zsaaiq.springhooker
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 432
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/me.zsaaiq.springhooker_1.1_iphoneos-arm64.deb
+Size: 51158
+MD5sum: 4a75f142baae46de6cd18ab47e62bf6d
+SHA1: 4a90e23e3fe81b9298b07ccd7ddd743ff49782cc
+SHA256: 6d8d90dc7bc4c6d97441d13692af8389311d0d75283953ae94c2a7f5fc2b2e94
+Section: Tweaks
+Description: Change settings that affect the SpringBoard!
+Author: zSaaiq
+Icon: file:///Library/PreferenceBundles/SpringHooker.bundle/iconFullSize.png
+Name: SpringHooker
+
