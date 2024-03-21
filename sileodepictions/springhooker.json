@@ -1,43 +1,79 @@
 {
-  "minVersion": "0.4",
-  "class": "DepictionTabView",
-  "tabs": [
-    {
-      "class": "DepictionStackView",
-      "tabname": "Details",
-      "views": [
+    "minVersion": "0.4",
+    "headerImage": "https://zsaaiq.github.io/jailbreakrepo/images/SpringHookerHeader.png",
+    "class": "DepictionTabView",
+    "tintColor": "#1abc9c",
+    "backgroundColor": "#3d424a",
+    "tabs": [
         {
-          "class": "DepictionSubheaderView",
-          "useMargins": true,
-          "title": "Compatible with iOS 13.0 +"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "<p><b>Build for Rootless iOS enviroments</b>",
-          "useSpacing": true,
-          "useRawFormat": true
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false,
+                    "title": "me.zsaaiq.springhooker",
+                    "useBoldText": true
+                },
+                {
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Change Settings that affect the SpringBoard."
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://zsaaiq.github.io/jailbreakrepo/images/SpringHookerScreenshot.png"
+                        }
+                    ],
+                    "itemSize": "{160, 275.41333333333336}",
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
+                    "markdown": "Main Features:\r\n\r\nset custom radius for SwitcherAppCards.\r\ndisable Camera in LS\r\ndisable TodayView in LS\r\nRemove EU vol Limit.\r\ndisable display wake if Music is playing and you press vol up/down\r\ndisable display wake if Message received.\r\ndisable backlightdim when press lock Button.\r\ndisable icon fly-in if device is unlocked.\r\ndisable clock Animation on SpringBoard\r\nremove Torch or Camera Button in LS.\r\ndisable idle Timer in LS completly (device would\u2018t go to black screen) or set custom timers in ms.",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "text": "1.1",
+                    "class": "DepictionTableTextView",
+                    "title": "Version"
+                },
+                {
+                    "text": "03-21-2024",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
+                    "text": "Free",
+                    "class": "DepictionTableTextView",
+                    "title": "Price"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "zSaaiq",
+                    "class": "DepictionTableTextView",
+                    "title": "Developer"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Details"
         }
-      ],
-      "xPadding": 10
-    },
-    {
-      "class": "DepictionStackView",
-      "tabname": "Changelog",
-      "views": [
-        {
-          "class": "DepictionSubheaderView",
-          "title": "Version 1.0"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- Supported Rootless enviroments"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        }
-      ]
-    }
-  ],
-  "tintColor": "gray",
-  "headerImage": "https://github.com/zSaaiq/jailbreakrepo/blob/main/screenshots/springhooker/tweak.png"
+    ]
 }

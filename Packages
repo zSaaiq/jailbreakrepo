@@ -115,6 +115,23 @@ Description: An advanced audio visualizer library for Mitsuha Forever
 Author: Ryan Nair, ConorTheDev, Nepeta
 Name: libmitsuhaforever
 
+Package: com.ryannair05.libmitsuhaforever
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 224
+Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
+Replaces: me.nepeta.libmitsuha, me.conorthedev.libmitsuhaforever
+Filename: ./debs/com.ryannair05.libmitsuhaforever_2.2_iphoneos-arm64.deb
+Size: 39926
+MD5sum: bbdbfc00d3c45a06b2ac5aaf02aefaa4
+SHA1: 2e6c5a34778ed67651d45b8cfdcbc6dee500fd80
+SHA256: 880b917cbd17a24f2e6334d4944a45eb2789796f3ebe73c81f737ec6e7de8064
+Section: Development
+Description: An advanced audio visualizer library for Mitsuha Forever
+Author: Ryan Nair, ConorTheDev, Nepeta
+Name: libmitsuhaforever
+
 Package: com.ryannair05.mitsuhaforever
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -236,13 +253,14 @@ Maintainer: zSaaiq
 Installed-Size: 432
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/me.zsaaiq.springhooker_1.1_iphoneos-arm64.deb
-Size: 50602
-MD5sum: 428942bc4b01a8930f886753fa7c6ae3
-SHA1: d3e5febbe01005f6c0bde7d1a4924fb7574af3be
-SHA256: d9e6064bdedb9a3091e86d129fb6bcfb3fb05bdcbb457a85c4b2f709567aa302
+Size: 50670
+MD5sum: 8187fb4e769e6abc4cf3abe5bde7cc59
+SHA1: 282219f16046019bd163e37791701e35fa4290ec
+SHA256: fea0ed8662c217e189a4bc834b9fbec00e2ab7161eba380e9991945bcec850ae
 Section: Tweaks
 Description: Change settings that affect the SpringBoard!
 Author: zSaaiq
-Icon: file:///Library/PreferenceBundles/SpringHooker.bundle/iconFullSize.png
+Icon: file:///var/jb/Library/PreferenceBundles/SpringHooker.bundle/iconFullSize.png
 Name: SpringHooker
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/SpringHooker.json
 
