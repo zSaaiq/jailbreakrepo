@@ -52,16 +52,17 @@ Package: com.pixelomer.mobilegoose
 Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: zsaaiq
-Installed-Size: 1000
+Installed-Size: 1340
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.pixelomer.mobilegoose_2.0_iphoneos-arm64.deb
-Size: 597960
-MD5sum: 2f5bd4c70825475703037d5c5525421a
-SHA1: a37ff86f8c391e9dbec318aeee0ea83931957992
-SHA256: 50aaf4b12342616165d6aea0dc84cba4329f314700536f953c0cd12dacf86609
+Size: 606394
+MD5sum: a0b8a646904be2d11c2f06c6609b06f4
+SHA1: 888441ed31e0eeb4d9bd8412fcef3299f69d63ae
+SHA256: e6ff60e3e3535ab9c8d48a0bc1515b52b373d47a1130e99c29cb0fc79722c77b
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
+Icon: file:///var/jb/Library/PreferenceBundles/MobileGoose.bundle/icon@3x.png
 Name: MobileGoose
 
 Package: com.ryannair05.audiosnapshotserver
@@ -189,6 +190,26 @@ Description: Universal audio visualizer for iOS currently Music Support is  remo
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
 Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/index.html
 Icon: Prefs/Resources/icon@3x.png
+Name: Mitsuha Forever
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
+
+Package: com.ryannair05.mitsuhaforever
+Version: 2.2.3
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1092
+Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
+Replaces: com.ryannair05.mitsuhaforever (<=2), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2), com.addiezone.onemitsuhadopaminesettings, com.addiezone.twomitsuhadopaminesettings, com.addiezone.threemitsuhadopaminesettings, com.addiezone.fourmitsuhadopaminesettings, com.addiezone.fivemitsuhadopaminesettings, com.addiezone.sixmitsuhadopaminesettings
+Filename: ./debs/com.ryannair05.mitsuhaforever_2.2.3_iphoneos-arm64.deb
+Size: 97598
+MD5sum: a7d251cdac9b77cf3c623bbc3da070b6
+SHA1: fc903b90f333b868bfb4f910b62b54a44ca7bd9d
+SHA256: 8494b936077ac973bf0b65f34799ad62bc73d829eb26aa58b39b64aa11385773
+Section: Tweaks
+Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
+Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
+Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/index.html
+Icon: file:///var/jb/Library/PreferenceBundles/MitsuhaForever.bundle/icon@3x.png
 Name: Mitsuha Forever
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
 
