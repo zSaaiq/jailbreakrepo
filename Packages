@@ -343,12 +343,12 @@ Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: Litten
 Installed-Size: 1760
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), love.litten.libkitten (>= 1.5), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), dev.traurige.libkitten (>= 1.5), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
 Filename: ./debs/love.litten.heartlines_1.7_iphoneos-arm64.deb
-Size: 1172758
-MD5sum: 49999be66b7768a220547943cf55c10a
-SHA1: 2589e51742559fa0134c140706cc785f25541594
-SHA256: d4630fb15d3ae48d1f3b98b5d293ea2fb0b95e3557326fa3e03af26cbcb3d8d5
+Size: 1172782
+MD5sum: 01549d0062e74720384a135c28d3a6ab
+SHA1: b7b0d9894d6e5252a902ad3a9595526faa6b0af5
+SHA256: 9053cf71d064e081bd0bb0fd95e66c5998e8d01492c178233c86ee6dfad51061
 Section: Tweaks
 Description: I know there's trembling in your heartlines
 Author: Litten
@@ -394,12 +394,12 @@ Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: zSaaiq
 Installed-Size: 1444
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), ws.hbang.common (>= 1.14), love.litten.libkitten (>= 1.1.1), com.mrgcgamer.libgcuniversal
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), ws.hbang.common (>= 1.14), dev.traurige.libkitten (>= 1.5), com.mrgcgamer.libgcuniversal
 Filename: ./debs/love.litten.lune_1.7_iphoneos-arm64.deb
-Size: 976114
-MD5sum: e8b521258b83de0d7c8ecf7ec1a819d1
-SHA1: 9ae7aa3e4795ec6e698d5b40fdbc26411e8e440f
-SHA256: fc284352eb59d64b0efcbd18b454103cde01557e22e281fdadbcd31efb287c20
+Size: 975984
+MD5sum: b6c31c3f784cfceff47a48357fdafe76
+SHA1: 964d049fee34405d78828cb0b30ff5d73faabc29
+SHA256: 81913abf620dbe8cc7dacbb86e57b48701a1245ac2031fb0509c954246498f44
 Section: Tweaks
 Description: Twinkle twinkle little star
 Author: Litten
@@ -411,12 +411,12 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: zSaaiq
 Installed-Size: 1104
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), dev.traurige.libkitten (>= 1.5)
 Filename: ./debs/love.litten.rose_1.1_iphoneos-arm64.deb
-Size: 378842
-MD5sum: fe2aeeded483576f93dbef7e22575fc9
-SHA1: 1815eef5d607d5f6dec29f5be0882e1e4722d975
-SHA256: da15a15a2b9a0c2ea75196a97ce23ebb610dff98f04512f1b8637de3ab9890cf
+Size: 377918
+MD5sum: caf406b5ae94cd4cd6fb70db95f687e2
+SHA1: ab80037e19b853a8516adcac0c392e834dd41464
+SHA256: 425e90401bcd3e96692c0e6f19b9ffcd24186a5834bd352faf4136c2b6082cdd
 Section: Tweaks
 Description: The most advanced and feature rich system wide haptic feedback tweak
 Author: Litten
