@@ -14,6 +14,23 @@ Description: Control Center module to toggle MobileGoose on/off
 Author: Capt Inc, zsaaiq <kevin.felix90@gmx.de>
 Name: MobileGooseModule
 
+Package: com.captinc.mobilegoosemodule
+Version: 1.0.3-5+debug
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq <kevin.felix90@gmx.de>
+Installed-Size: 196
+Depends: firmware (>=15.0), mobilesubstrate, com.opa334.ccsupport, com.pixelomer.mobilegoose
+Filename: ./debs/com.captinc.mobilegoosemodule_1.0.3-5+debug_iphoneos-arm64.deb
+Size: 15278
+MD5sum: 784cdf695be54e51717a9583fd0e306e
+SHA1: 7c5aecc3d332cb44f235226b2b8ab3b2956efc1f
+SHA256: 64e3a959c6f66465c78a5f3b478783f5eac8d7e0636aaefd50f32a30132c1de6
+Section: Tweaks
+Description: Control Center module to toggle MobileGoose on/off
+Author: Capt Inc, zsaaiq <kevin.felix90@gmx.de>
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGooseCCModule.png
+Name: MobileGooseModule
+
 Package: com.pixelomer.colorfulgoose
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -29,6 +46,24 @@ Section: Tweaks
 Priority: optional
 Description: Add color to your goose
 Author: PixelOmer, zsaaiq
+Name: ColorfulGoose
+
+Package: com.pixelomer.colorfulgoose
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq
+Installed-Size: 168
+Depends: com.pixelomer.mobilegoose (>=2.0)
+Filename: ./debs/com.pixelomer.colorfulgoose_2.0_iphoneos-arm64.deb
+Size: 4442
+MD5sum: d2ec4bc3cee7f7146eb57371705e77f5
+SHA1: 25a7b8aecf01ba8332eac71cccf073859932af95
+SHA256: 225939b9f38b0e2f7346c0e3ab28246511a799caa77915d2ac54e8e71db4eb55
+Section: Tweaks
+Priority: optional
+Description: Add color to your goose
+Author: PixelOmer, zsaaiq
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/colorfulgoose.png
 Name: ColorfulGoose
 
 Package: com.pixelomer.joethegoose
@@ -48,6 +83,24 @@ Description: A name tag for your goose
 Author: PixelOmer, zsaaiq
 Name: Goose Name Tag
 
+Package: com.pixelomer.joethegoose
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq
+Installed-Size: 172
+Depends: com.pixelomer.mobilegoose (>=1.2)
+Filename: ./debs/com.pixelomer.joethegoose_2.0_iphoneos-arm64.deb
+Size: 5228
+MD5sum: 06abcb39ddd9d8e8805099cd75d43874
+SHA1: d9ab6989c64e6fda6658ddad3b63a726a25ae48f
+SHA256: 58306486558ba21ba08bfc4c66f1c162dc02203dce1557c1d3f6fdbc740f0bfa
+Section: Tweaks
+Priority: optional
+Description: A name tag for your goose
+Author: PixelOmer, zsaaiq
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/goosename.png
+Name: Goose Name Tag
+
 Package: com.pixelomer.mobilegoose
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -55,14 +108,14 @@ Maintainer: zsaaiq
 Installed-Size: 1340
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.pixelomer.mobilegoose_2.0_iphoneos-arm64.deb
-Size: 606394
-MD5sum: a0b8a646904be2d11c2f06c6609b06f4
-SHA1: 888441ed31e0eeb4d9bd8412fcef3299f69d63ae
-SHA256: e6ff60e3e3535ab9c8d48a0bc1515b52b373d47a1130e99c29cb0fc79722c77b
+Size: 606248
+MD5sum: 674870c7cc70d1061cd2aea3c681d630
+SHA1: 49c66bff365fbea0875692e1aee43f8f57d9e2d9
+SHA256: 52b5d8695a311910c949f23f86a32f3307e5f1c643e74b6740c87b94e8977f70
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
-Icon: file:///var/jb/Library/PreferenceBundles/MobileGoose.bundle/icon@3x.png
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
 Name: MobileGoose
 
 Package: com.ryannair05.audiosnapshotserver
@@ -222,13 +275,14 @@ Maintainer: zSaaiq <kevin.felix90@gmx.de>
 Installed-Size: 168
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./debs/com.zsaaiq.chefkochnoads_1.0_iphoneos-arm64.deb
-Size: 5674
-MD5sum: 82aae399e6565502e52c6bf025fd7601
-SHA1: 92988eb2e84f740dff43a4b6ec5734474e1e1ef4
-SHA256: bf96b9823b5e77eef363b0b844dd16610650c450e3fa735cb845fa9a5e090e89
+Size: 5724
+MD5sum: f800e42b78882ee258b73666b8426ac4
+SHA1: 47eb3ca676b9e1eb8e93e7f81fffd38b10965a94
+SHA256: 15bb9cc38d96e5d3d1950299d803df64723a0bf7483aeec60d8decc7fb459bc9
 Section: Tweaks
 Description: hides ads in the Chefkoch Application on iOS.
 Author: zSaaiq <kevin.felix90@gmx.de>
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/ChefkochNoAds.png
 Name: ChefkochNoAds
 
 Package: com.zsaaiq.ytmusicnocast
@@ -238,13 +292,14 @@ Maintainer: zSaaiq <kevin.felix90@gmx.de>
 Installed-Size: 168
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./debs/com.zsaaiq.ytmusicnocast_1.0_iphoneos-arm64.deb
-Size: 3162
-MD5sum: 73b69ac19e17176baa18a57d1b8c355d
-SHA1: 6adb346bbd2a32a4c335afaa6376b4fe2e67dd31
-SHA256: daef5fd740abe54b1bae135de2381a59bc19cedb056650b612fab12319fb1f89
+Size: 3202
+MD5sum: e9836a7226b279e0f7f568f5629892bf
+SHA1: 7ef8275aa78d1f959775cd44dc3a55932b683b0f
+SHA256: 16da67d62381621d0674c2a942c5cc5b6cbf2109049068d85b6fd33549527f79
 Section: Tweaks
 Description: hides the Google cast button in the whole YTMusic app.
 Author: zSaaiq <kevin.felix90@gmx.de>
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/YTMusicNoCast.png
 Name: YTMusicNoCast
 
 Package: me.zsaaiq.springhooker
@@ -276,14 +331,14 @@ Maintainer: zSaaiq
 Installed-Size: 432
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/me.zsaaiq.springhooker_1.1_iphoneos-arm64.deb
-Size: 50670
-MD5sum: 8187fb4e769e6abc4cf3abe5bde7cc59
-SHA1: 282219f16046019bd163e37791701e35fa4290ec
-SHA256: fea0ed8662c217e189a4bc834b9fbec00e2ab7161eba380e9991945bcec850ae
+Size: 50698
+MD5sum: bb8358184d31a267ff004e1e57589e29
+SHA1: 381cf0c05a023a7139b3b8d6bf43b481d137bf8d
+SHA256: c621d0a8dbad3da3a4abcfbc3bfd0be34d2cc8a567221f21bad7fe5b48759816
 Section: Tweaks
 Description: Change settings that affect the SpringBoard!
 Author: zSaaiq
-Icon: file:///var/jb/Library/PreferenceBundles/SpringHooker.bundle/iconFullSize.png
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/springhooker.png
 Name: SpringHooker
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/SpringHooker.json
 
