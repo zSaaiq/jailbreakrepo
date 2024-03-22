@@ -357,23 +357,6 @@ Tag: role::developer
 Author: Traurige <hello@traurige.dev>
 Name: libKitten
 
-Package: love.litten.heartlines
-Version: 1.7
-Architecture: iphoneos-arm64
-Maintainer: Litten
-Installed-Size: 1760
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), dev.traurige.libkitten (>= 1.5), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
-Filename: ./debs/love.litten.heartlines_1.7_iphoneos-arm64.deb
-Size: 1172782
-MD5sum: 01549d0062e74720384a135c28d3a6ab
-SHA1: b7b0d9894d6e5252a902ad3a9595526faa6b0af5
-SHA256: 9053cf71d064e081bd0bb0fd95e66c5998e8d01492c178233c86ee6dfad51061
-Section: Tweaks
-Description: I know there's trembling in your heartlines
-Author: Litten
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/Heartlines.png
-Name: Heartlines 🌺
-
 Package: love.litten.juin
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -407,40 +390,6 @@ Description: Full incoming OLED notifications
 Author: Litten & Esquilli
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
 Name: Lisa 💅🏻
-
-Package: love.litten.lune
-Version: 1.7
-Architecture: iphoneos-arm64
-Maintainer: zSaaiq
-Installed-Size: 1444
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), ws.hbang.common (>= 1.14), dev.traurige.libkitten (>= 1.5), com.mrgcgamer.libgcuniversal
-Filename: ./debs/love.litten.lune_1.7_iphoneos-arm64.deb
-Size: 975984
-MD5sum: b6c31c3f784cfceff47a48357fdafe76
-SHA1: 964d049fee34405d78828cb0b30ff5d73faabc29
-SHA256: 81913abf620dbe8cc7dacbb86e57b48701a1245ac2031fb0509c954246498f44
-Section: Tweaks
-Description: Twinkle twinkle little star
-Author: Litten
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lune.png
-Name: Lune 🌙
-
-Package: love.litten.rose
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: zSaaiq
-Installed-Size: 1104
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), dev.traurige.libkitten (>= 1.5)
-Filename: ./debs/love.litten.rose_1.1_iphoneos-arm64.deb
-Size: 377918
-MD5sum: caf406b5ae94cd4cd6fb70db95f687e2
-SHA1: ab80037e19b853a8516adcac0c392e834dd41464
-SHA256: 425e90401bcd3e96692c0e6f19b9ffcd24186a5834bd352faf4136c2b6082cdd
-Section: Tweaks
-Description: The most advanced and feature rich system wide haptic feedback tweak
-Author: Litten
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/Rose.png
-Name: Rose 🌹
 
 Package: love.litten.violet
 Version: 1.8
