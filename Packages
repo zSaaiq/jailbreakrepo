@@ -5,26 +5,10 @@ Maintainer: zsaaiq <kevin.felix90@gmx.de>
 Installed-Size: 192
 Depends: firmware (>=15.0), mobilesubstrate, com.opa334.ccsupport, com.pixelomer.mobilegoose
 Filename: ./debs/com.captinc.mobilegoosemodule_1.0.3_iphoneos-arm64.deb
-Size: 14500
-MD5sum: 7a2cbd7b854ebd8b884672e8a8d8e878
-SHA1: e9a03e8dfc5f33b092691b9ddc27dbc738793811
-SHA256: 4c73e19c4c303845d4ababe04dd1bb03ee79defd554331a51c6454cb7e61b030
-Section: Tweaks
-Description: Control Center module to toggle MobileGoose on/off
-Author: Capt Inc, zsaaiq <kevin.felix90@gmx.de>
-Name: MobileGooseModule
-
-Package: com.captinc.mobilegoosemodule
-Version: 1.0.3-5+debug
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq <kevin.felix90@gmx.de>
-Installed-Size: 196
-Depends: firmware (>=15.0), mobilesubstrate, com.opa334.ccsupport, com.pixelomer.mobilegoose
-Filename: ./debs/com.captinc.mobilegoosemodule_1.0.3-5+debug_iphoneos-arm64.deb
-Size: 15278
-MD5sum: 784cdf695be54e51717a9583fd0e306e
-SHA1: 7c5aecc3d332cb44f235226b2b8ab3b2956efc1f
-SHA256: 64e3a959c6f66465c78a5f3b478783f5eac8d7e0636aaefd50f32a30132c1de6
+Size: 14476
+MD5sum: bd8d3460ce29f31f33c0b5901602be47
+SHA1: adf48e191afda349cc522ee04946a2746a57a378
+SHA256: 5f04416606c24e5bfd80c25c0371f21c7cd24fd81b26e8e58091b17e6c5e6b42
 Section: Tweaks
 Description: Control Center module to toggle MobileGoose on/off
 Author: Capt Inc, zsaaiq <kevin.felix90@gmx.de>
@@ -331,14 +315,14 @@ Maintainer: zSaaiq
 Installed-Size: 432
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/me.zsaaiq.springhooker_1.1_iphoneos-arm64.deb
-Size: 50698
-MD5sum: bb8358184d31a267ff004e1e57589e29
-SHA1: 381cf0c05a023a7139b3b8d6bf43b481d137bf8d
-SHA256: c621d0a8dbad3da3a4abcfbc3bfd0be34d2cc8a567221f21bad7fe5b48759816
+Size: 50624
+MD5sum: 97e3cedc733aabb5cd75bd0d6f6ac505
+SHA1: 91d2db388c6620b4956f132a07005db6ca3d23e4
+SHA256: ac1a0fc8958e0fd180bf8fda620562c031181d058a1b45000eaf56636b7f5f43
 Section: Tweaks
 Description: Change settings that affect the SpringBoard!
 Author: zSaaiq
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/springhooker.png
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/iconFullSize.png
 Name: SpringHooker
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/SpringHooker.json
 
