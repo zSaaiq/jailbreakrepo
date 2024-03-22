@@ -406,6 +406,23 @@ Author: Litten
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lune.png
 Name: Lune 🌙
 
+Package: love.litten.rose
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1104
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
+Filename: ./debs/love.litten.rose_1.1_iphoneos-arm64.deb
+Size: 378842
+MD5sum: fe2aeeded483576f93dbef7e22575fc9
+SHA1: 1815eef5d607d5f6dec29f5be0882e1e4722d975
+SHA256: da15a15a2b9a0c2ea75196a97ce23ebb610dff98f04512f1b8637de3ab9890cf
+Section: Tweaks
+Description: The most advanced and feature rich system wide haptic feedback tweak
+Author: Litten
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Rose.png
+Name: Rose 🌹
+
 Package: love.litten.violet
 Version: 1.8
 Architecture: iphoneos-arm64
