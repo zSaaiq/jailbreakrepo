@@ -240,10 +240,10 @@ Installed-Size: 1092
 Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
 Replaces: com.ryannair05.mitsuhaforever (<=2), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2), com.addiezone.onemitsuhadopaminesettings, com.addiezone.twomitsuhadopaminesettings, com.addiezone.threemitsuhadopaminesettings, com.addiezone.fourmitsuhadopaminesettings, com.addiezone.fivemitsuhadopaminesettings, com.addiezone.sixmitsuhadopaminesettings
 Filename: ./debs/com.ryannair05.mitsuhaforever_2.2.3_iphoneos-arm64.deb
-Size: 97670
-MD5sum: c55d5eef916f1d8daac536cda2ac98f0
-SHA1: 40f5ec2fd34db0a8dad1cdf07b2ab6621626b9ad
-SHA256: e52c041f73beb4b4602a53ff34f4d72b8ad966d6a6db3156852d30b717fe5dbb
+Size: 97820
+MD5sum: 5f1548b0c4f2f02134b97c8038c5f8f1
+SHA1: b0692fead46640edd96ebeeec5b51bd13ef27217
+SHA256: 5695508ccb46903946e96fe335306c1601eee16524d9bd3280fc2955a37015f6
 Section: Tweaks
 Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
@@ -285,6 +285,92 @@ Description: hides the Google cast button in the whole YTMusic app.
 Author: zSaaiq <kevin.felix90@gmx.de>
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/YTMusicNoCast.png
 Name: YTMusicNoCast
+
+Package: dev.traurige.batterybuddy
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: zSaaiq <kevin.felix90@gmx.de>
+Installed-Size: 432
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/dev.traurige.batterybuddy_1.4_iphoneos-arm.deb
+Size: 40824
+MD5sum: cd2aa0314f5f11b3951dfa77f074eadf
+SHA1: 154fd783039858ee75d3fbc36edde4463803c6cb
+SHA256: b7c278beb1962194011277f4876f1d8be523abaa59d77bd693ed816f436a7e80
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/BatteryBuddy.png
+Name: BatteryBuddy
+
+Package: love.litten.heartlines
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Litten
+Installed-Size: 1760
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), love.litten.libkitten (>= 1.1.1), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
+Filename: ./debs/love.litten.heartlines_1.7_iphoneos-arm64.deb
+Size: 1172814
+MD5sum: 9f587f28c593258b77a6ad71d5dd0e19
+SHA1: b2e72adc0e97876facb66549a73c29823e24436f
+SHA256: 55c67be516a33720d46ef80f42213d0a7f99d41ab40972f0d4ddb457dbb9ba93
+Section: Tweaks
+Description: I know there's trembling in your heartlines
+Author: Litten
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Heartlines.png
+Name: Heartlines 🌺
+
+Package: love.litten.lisa
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Litten
+Installed-Size: 1304
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
+Filename: ./debs/love.litten.lisa_1.7_iphoneos-arm64.deb
+Size: 806994
+MD5sum: 34646ff624025efd517999090ea0cc4d
+SHA1: bc5b286c6f3040855f975a7892a583e5d7469d64
+SHA256: ad1ebd4b6763ae93f73f15eb46a19fa81aa69877978b9c64022f2357555ad791
+Section: Tweaks
+Description: Full incoming OLED notifications
+Author: Litten & Esquilli
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
+Name: Lisa 💅🏻
+
+Package: love.litten.lune
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1444
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), ws.hbang.common (>= 1.14), love.litten.libkitten (>= 1.1.1), com.mrgcgamer.libgcuniversal
+Filename: ./debs/love.litten.lune_1.7_iphoneos-arm64.deb
+Size: 975956
+MD5sum: 4697466e915bd10a756f6f2630846e89
+SHA1: a1bfefbb0211395fb4ae9bfce023404b62140fb6
+SHA256: 614131391ead586dc5c100843047bad64d77f841a5e187acb6aef0677db132c9
+Section: Tweaks
+Description: Twinkle twinkle little star
+Author: Litten
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lune.png
+Name: Lune 🌙
+
+Package: love.litten.violet
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1812
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
+Filename: ./debs/love.litten.violet_1.8_iphoneos-arm64.deb
+Size: 1011426
+MD5sum: 9e639808ac0aefb87e8b2ceef821e3e8
+SHA1: 998f422c855ac411f28a4f24e785ef9074bd8a15
+SHA256: 748a92855bcdf6b3ecdf78c8e559849e6ffc038fbce2be33ba997d27eec954ba
+Section: Tweaks
+Description: Sweet addition to your wallpaper
+Author: Litten
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Violet.png
+Name: Violet 🎀
 
 Package: me.zsaaiq.springhooker
 Version: 1.0
