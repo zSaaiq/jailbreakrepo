@@ -15,6 +15,21 @@ Author: Capt Inc, zsaaiq <kevin.felix90@gmx.de>
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGooseCCModule.png
 Name: MobileGooseModule
 
+Package: com.peterdev.libpddokdo
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: Soongyu Kwon
+Installed-Size: 164
+Filename: ./debs/com.peterdev.libpddokdo_1.3.5_iphoneos-arm64.deb
+Size: 5910
+MD5sum: c4f5cc53d41acce653c780e3046b2b9f
+SHA1: 412265609d39cc26817aa7b60a6db1ce289ced73
+SHA256: 9c57cb89005ba10cd25a73e31865862e317507b62eec6fbbd029453037a7f121
+Section: Development
+Description: An awesome library to get current weather which provides by iOS Weater.app easily.
+Author: Soongyu Kwon
+Name: libPDDokdo
+
 Package: com.pixelomer.colorfulgoose
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -304,22 +319,58 @@ Author: Traurige & neilsardesai <hello@traurige.dev>
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/BatteryBuddy.png
 Name: BatteryBuddy
 
+Package: dev.traurige.libkitten
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: zSaaiq <kevin.felix90@gmx.de>
+Installed-Size: 216
+Depends: firmware (>= 15.0)
+Conflicts: love.litten.libkitten
+Provides: love.litten.libkitten (=1.3.3)
+Filename: ./debs/dev.traurige.libkitten_1.5_iphoneos-arm.deb
+Size: 9098
+MD5sum: 1ae53cb42680618cfc0c5a2481312354
+SHA1: 3c9a10fe32774b0bfbcb46f03c8fd67f18589055
+SHA256: f687d3679ba5670d4ce830bd8cc67bf5a74fa7ad48aa8149a131a82a2808c9ea
+Section: System
+Description: Collection of image and color calculations
+Tag: role::developer
+Author: Traurige <hello@traurige.dev>
+Name: libKitten
+
 Package: love.litten.heartlines
 Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: Litten
 Installed-Size: 1760
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), love.litten.libkitten (>= 1.1.1), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), love.litten.libkitten (>= 1.5), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
 Filename: ./debs/love.litten.heartlines_1.7_iphoneos-arm64.deb
-Size: 1172814
-MD5sum: 9f587f28c593258b77a6ad71d5dd0e19
-SHA1: b2e72adc0e97876facb66549a73c29823e24436f
-SHA256: 55c67be516a33720d46ef80f42213d0a7f99d41ab40972f0d4ddb457dbb9ba93
+Size: 1172758
+MD5sum: 49999be66b7768a220547943cf55c10a
+SHA1: 2589e51742559fa0134c140706cc785f25541594
+SHA256: d4630fb15d3ae48d1f3b98b5d293ea2fb0b95e3557326fa3e03af26cbcb3d8d5
 Section: Tweaks
 Description: I know there's trembling in your heartlines
 Author: Litten
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Heartlines.png
 Name: Heartlines 🌺
+
+Package: love.litten.juin
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Litten
+Installed-Size: 1500
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
+Filename: ./debs/love.litten.juin_1.2_iphoneos-arm64.deb
+Size: 1008496
+MD5sum: a09729428910bf2213fb6f9eea0993ab
+SHA1: e7e09e6de0ad3965d82bdc1fd605a0ef1cee97ab
+SHA256: bebd069ece8b8ef24b9627f7820bb0d8f7498551dea4afcfded3ad78760adb77
+Section: Tweaks
+Description: Spotify inspired lock screen player
+Author: Litten
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Juin.png
+Name: Juin 🏖
 
 Package: love.litten.lisa
 Version: 1.7
@@ -328,10 +379,10 @@ Maintainer: Litten
 Installed-Size: 1304
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.lisa_1.7_iphoneos-arm64.deb
-Size: 806994
-MD5sum: 34646ff624025efd517999090ea0cc4d
-SHA1: bc5b286c6f3040855f975a7892a583e5d7469d64
-SHA256: ad1ebd4b6763ae93f73f15eb46a19fa81aa69877978b9c64022f2357555ad791
+Size: 807024
+MD5sum: eeb4ceb1de4eb3441752c06f9930c03b
+SHA1: 30e2460c7d6cfcf20566a2a692f1f9b20c2763cb
+SHA256: d796916adaa18cb495aa0a10ad56dea5706efb2fdf407ea5d574e5557eaf79fe
 Section: Tweaks
 Description: Full incoming OLED notifications
 Author: Litten & Esquilli
@@ -345,10 +396,10 @@ Maintainer: zSaaiq
 Installed-Size: 1444
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), ws.hbang.common (>= 1.14), love.litten.libkitten (>= 1.1.1), com.mrgcgamer.libgcuniversal
 Filename: ./debs/love.litten.lune_1.7_iphoneos-arm64.deb
-Size: 975956
-MD5sum: 4697466e915bd10a756f6f2630846e89
-SHA1: a1bfefbb0211395fb4ae9bfce023404b62140fb6
-SHA256: 614131391ead586dc5c100843047bad64d77f841a5e187acb6aef0677db132c9
+Size: 976114
+MD5sum: e8b521258b83de0d7c8ecf7ec1a819d1
+SHA1: 9ae7aa3e4795ec6e698d5b40fdbc26411e8e440f
+SHA256: fc284352eb59d64b0efcbd18b454103cde01557e22e281fdadbcd31efb287c20
 Section: Tweaks
 Description: Twinkle twinkle little star
 Author: Litten
@@ -362,15 +413,31 @@ Maintainer: zSaaiq
 Installed-Size: 1812
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.violet_1.8_iphoneos-arm64.deb
-Size: 1011426
-MD5sum: 9e639808ac0aefb87e8b2ceef821e3e8
-SHA1: 998f422c855ac411f28a4f24e785ef9074bd8a15
-SHA256: 748a92855bcdf6b3ecdf78c8e559849e6ffc038fbce2be33ba997d27eec954ba
+Size: 1011612
+MD5sum: f4833a3b333ea9a24002e33e4bcaede9
+SHA1: e169b0975ae51f2d9211e706c64c8201fbb83855
+SHA256: 04c75b3aa8906e278970f3aaecf3ad28ca955caa9001cca28d6b07a9d39a01be
 Section: Tweaks
 Description: Sweet addition to your wallpaper
 Author: Litten
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Violet.png
 Name: Violet 🎀
+
+Package: me.conorthedev.libappearancecell
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: ConorTheDev <conorthedev@gmail.com>
+Installed-Size: 168
+Filename: ./debs/me.conorthedev.libappearancecell_1.0.2_iphoneos-arm64.deb
+Size: 10860
+MD5sum: ef4f1b9bf5759b2bb9229d212cbb23b9
+SHA1: c632f0bd8f995404c1c0a34d6e77b38907024617
+SHA256: 87277e2b50daaf4844f651e912b70e6999f5f2f7003c8e0f542c7c4a45674b67
+Section: System
+Description: A library for that allows developers to use an iOS 13-style appearance selector in their Preferences.
+Tag: role::developer
+Author: ConorTheDev <conorthedev@gmail.com>
+Name: libappearancecell
 
 Package: me.zsaaiq.springhooker
 Version: 1.0
