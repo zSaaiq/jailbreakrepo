@@ -381,10 +381,10 @@ Maintainer: Litten
 Installed-Size: 1304
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.lisa_1.7_iphoneos-arm64.deb
-Size: 807024
-MD5sum: eeb4ceb1de4eb3441752c06f9930c03b
-SHA1: 30e2460c7d6cfcf20566a2a692f1f9b20c2763cb
-SHA256: d796916adaa18cb495aa0a10ad56dea5706efb2fdf407ea5d574e5557eaf79fe
+Size: 807146
+MD5sum: 460bcfe046af8d25140657b917c4bbb2
+SHA1: c7fe2f2e0d9aae29e676fed88bda89edc36df06f
+SHA256: 3c4e5e0125a587a7f91fd6eff59b3ad44c586db97ac4f5e6c24d9cf8426a7994
 Section: Tweaks
 Description: Full incoming OLED notifications
 Author: Litten & Esquilli
