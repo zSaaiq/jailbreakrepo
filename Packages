@@ -107,15 +107,17 @@ Maintainer: zsaaiq
 Installed-Size: 1340
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.pixelomer.mobilegoose_2.0_iphoneos-arm64.deb
-Size: 606248
-MD5sum: 674870c7cc70d1061cd2aea3c681d630
-SHA1: 49c66bff365fbea0875692e1aee43f8f57d9e2d9
-SHA256: 52b5d8695a311910c949f23f86a32f3307e5f1c643e74b6740c87b94e8977f70
+Size: 606062
+MD5sum: 879b7ff2338faf2a4f72946b1512eac9
+SHA1: 62e95175c18e2185bf67c190a5a3eda900b2e79c
+SHA256: b6fe137b2be3148f2e177b3a6f95c45ade55a6245b7462aef2ad5f3a0598699b
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/MobileGoose.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
 Name: MobileGoose
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/MobileGoose.json
 
 Package: com.ryannair05.audiosnapshotserver
 Version: 2.3
@@ -274,15 +276,17 @@ Maintainer: zSaaiq <kevin.felix90@gmx.de>
 Installed-Size: 168
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./debs/com.zsaaiq.chefkochnoads_1.0_iphoneos-arm64.deb
-Size: 5724
-MD5sum: f800e42b78882ee258b73666b8426ac4
-SHA1: 47eb3ca676b9e1eb8e93e7f81fffd38b10965a94
-SHA256: 15bb9cc38d96e5d3d1950299d803df64723a0bf7483aeec60d8decc7fb459bc9
+Size: 5756
+MD5sum: b095f349a32901dc013d3ace6818c021
+SHA1: b9ca9068b5ee2789c50cbca72ee438112d81c195
+SHA256: 61b7ca7686de5af67f70825f89461af2fd24f351ce87dd3a2ad96bf04df5a559
 Section: Tweaks
 Description: hides ads in the Chefkoch Application on iOS.
 Author: zSaaiq <kevin.felix90@gmx.de>
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/chefkochnoads.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/ChefkochNoAds.png
 Name: ChefkochNoAds
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/chefkochnoads.json
 
 Package: com.zsaaiq.ytmusicnocast
 Version: 1.0
@@ -291,15 +295,17 @@ Maintainer: zSaaiq <kevin.felix90@gmx.de>
 Installed-Size: 168
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./debs/com.zsaaiq.ytmusicnocast_1.0_iphoneos-arm64.deb
-Size: 3202
-MD5sum: e9836a7226b279e0f7f568f5629892bf
-SHA1: 7ef8275aa78d1f959775cd44dc3a55932b683b0f
-SHA256: 16da67d62381621d0674c2a942c5cc5b6cbf2109049068d85b6fd33549527f79
+Size: 3240
+MD5sum: 1fd360acb845cb14a2190445c23e1e74
+SHA1: 51fd49c269da980be78d2776ede12edfe1e87495
+SHA256: 3ae83ea6536228192c6854520553d5b87d1780c13191dc0a4592cc52afab1d56
 Section: Tweaks
 Description: hides the Google cast button in the whole YTMusic app.
 Author: zSaaiq <kevin.felix90@gmx.de>
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/ytmusicnocast.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/YTMusicNoCast.png
 Name: YTMusicNoCast
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/ytmusicnocast.json
 
 Package: dev.traurige.batterybuddy
 Version: 1.4
@@ -357,6 +363,25 @@ Tag: role::developer
 Author: Traurige <hello@traurige.dev>
 Name: libKitten
 
+Package: love.litten.dress
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: Litten
+Installed-Size: 1552
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/love.litten.dress_2.7_iphoneos-arm64.deb
+Size: 994132
+MD5sum: 430cc6e2681bf388f7be70f580d4f520
+SHA1: 0a17e71f62c514435505db74752f0bb53ffae563
+SHA256: 91156e5eb2c4c773fb8ab2e6b2b50758d557fb1bd04e641455dfac9b0c113058
+Section: Tweaks
+Description: Dress up your lock screen
+Author: Litten
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/dress.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Dress.png
+Name: Dress 👗
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/dress.json
+
 Package: love.litten.juin
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -364,32 +389,74 @@ Maintainer: Litten
 Installed-Size: 1500
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.juin_1.2_iphoneos-arm64.deb
-Size: 1008496
-MD5sum: a09729428910bf2213fb6f9eea0993ab
-SHA1: e7e09e6de0ad3965d82bdc1fd605a0ef1cee97ab
-SHA256: bebd069ece8b8ef24b9627f7820bb0d8f7498551dea4afcfded3ad78760adb77
+Size: 1008876
+MD5sum: 4c74c41ed3c8c63ec7f6fca914b134a6
+SHA1: 70ee6998e3b3c6fc34e5d6e9cfaaf65c2166c8c4
+SHA256: 194f99f8e8388b71996a7eb52bbdb44c7b4762776360f3caa29ef5b5a716e89e
 Section: Tweaks
 Description: Spotify inspired lock screen player
 Author: Litten
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/juin.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Juin.png
 Name: Juin 🏖
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/juin.json
+
+Package: love.litten.liddell
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Litten
+Installed-Size: 1724
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), love.litten.libkitten (>= 1.3), com.mrgcgamer.libgcuniversal
+Filename: ./debs/love.litten.liddell_1.3_iphoneos-arm64.deb
+Size: 1220874
+MD5sum: 8db23fad542e091c241da18337ee47c8
+SHA1: ada6ca5b23a5fbce7c90fb243d2244682d1e28eb
+SHA256: fec5342e0a7d1cbe1b611804df5d531e5e0c0033829418e8d47de46daa1e4f4b
+Section: Tweaks
+Description: Liddell notification banners
+Author: Litten
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/lidell.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lidell.png
+Name: Liddell 🫖
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lidell.json
 
 Package: love.litten.lisa
 Version: 1.7
 Architecture: iphoneos-arm64
-Maintainer: Litten
+Maintainer: zSaaiq
 Installed-Size: 1304
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.lisa_1.7_iphoneos-arm64.deb
-Size: 807146
-MD5sum: 460bcfe046af8d25140657b917c4bbb2
-SHA1: c7fe2f2e0d9aae29e676fed88bda89edc36df06f
-SHA256: 3c4e5e0125a587a7f91fd6eff59b3ad44c586db97ac4f5e6c24d9cf8426a7994
+Size: 807092
+MD5sum: 6b6e812eaabd938cdb60375d392bd0d4
+SHA1: 9a69d21122cc08f72300a515aa020eb3a4ed45b6
+SHA256: 54231aa0e24884ddb4608503f9d902956ba04a28c21595395eccb287bada571d
 Section: Tweaks
 Description: Full incoming OLED notifications
 Author: Litten & Esquilli
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/lisa.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
 Name: Lisa 💅🏻
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lisa.json
+
+Package: love.litten.rose
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1104
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), dev.traurige.libkitten (>= 1.5)
+Filename: ./debs/love.litten.rose_1.1_iphoneos-arm64.deb
+Size: 378554
+MD5sum: afd7c6bf520056bb4ec4567230e45133
+SHA1: 9ada85456b191cf8143764bebbacc867b5b75077
+SHA256: 0b9b7a91bd1dd83446be7516bef7b387fbd4ac6822844c3d7e378a76945f4403
+Section: Tweaks
+Description: The most advanced and feature rich system wide haptic feedback tweak
+Author: Litten
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/rose.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Rose.png
+Name: Rose 🌹
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/rose.json
 
 Package: love.litten.violet
 Version: 1.8
@@ -398,15 +465,17 @@ Maintainer: zSaaiq
 Installed-Size: 1812
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.violet_1.8_iphoneos-arm64.deb
-Size: 1011612
-MD5sum: f4833a3b333ea9a24002e33e4bcaede9
-SHA1: e169b0975ae51f2d9211e706c64c8201fbb83855
-SHA256: 04c75b3aa8906e278970f3aaecf3ad28ca955caa9001cca28d6b07a9d39a01be
+Size: 1011680
+MD5sum: 530d00d5f70dd6f36d60bcf2868c0e30
+SHA1: 6ed1cb779b9f41d4b8d3de59af09e8e605237ded
+SHA256: b14cc83511c38fc10c86c501eacd749bc6e28d8dee9e970d59523ff946b84fee
 Section: Tweaks
 Description: Sweet addition to your wallpaper
 Author: Litten
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/violet.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Violet.png
 Name: Violet 🎀
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/violet.json
 
 Package: me.conorthedev.libappearancecell
 Version: 1.0.2
