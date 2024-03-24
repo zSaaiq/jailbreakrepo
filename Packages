@@ -32,80 +32,6 @@ Description: An awesome library to get current weather which provides by iOS Wea
 Author: Soongyu Kwon
 Name: libPDDokdo
 
-Package: com.pixelomer.colorfulgoose
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq
-Installed-Size: 168
-Depends: com.pixelomer.mobilegoose (>=2.0)
-Filename: ./debs/com.pixelomer.colorfulgoose_1.3_iphoneos-arm64.deb
-Size: 4548
-MD5sum: 0fe5cc4fdd0ea066ba17e10b79754684
-SHA1: 46a98df8d3a2ab0a63a3af94eb9456dd645c1bae
-SHA256: 40f6f978ad31026b7dbc9471b6fe57bf7007c38706507b88c03ea9a140c9de96
-Section: Tweaks
-Priority: optional
-Description: Add color to your goose
-Author: PixelOmer, zsaaiq
-Name: ColorfulGoose
-
-Package: com.pixelomer.colorfulgoose
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq
-Installed-Size: 168
-Depends: com.pixelomer.mobilegoose (>=2.0)
-Filename: ./debs/com.pixelomer.colorfulgoose_2.0_iphoneos-arm64.deb
-Size: 4476
-MD5sum: 2abf33d6f845f3beec758129d8018f47
-SHA1: 52e2d919f5d55c437c4ede6eb8925442d908eaa2
-SHA256: 870c4bd299aa86a244cf6aaf4ca2f5626c932ad23386be320f6f365bca1a9ad2
-Section: Tweaks
-Priority: optional
-Description: Add color to your goose
-Author: PixelOmer, zsaaiq
-Depiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mobilegoose-colorfulgoose.html
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/colorfulgoose.png
-Name: ColorfulGoose
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mobilegoose-colorfulgoose.json
-
-Package: com.pixelomer.joethegoose
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq
-Installed-Size: 172
-Depends: com.pixelomer.mobilegoose (>=2.0)
-Filename: ./debs/com.pixelomer.joethegoose_1.0.2_iphoneos-arm64.deb
-Size: 5266
-MD5sum: 5300f8f4094098ceb346fc7255f9e1de
-SHA1: cbf2a1c62f117aa371fba30a34ecbb6114ffdf4b
-SHA256: affd056e3a40a02cef488e0c175e9ec362550ba2daeb88beb6c3df71e7f6e79f
-Section: Tweaks
-Priority: optional
-Description: A name tag for your goose
-Author: PixelOmer, zsaaiq
-Name: Goose Name Tag
-
-Package: com.pixelomer.joethegoose
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq
-Installed-Size: 172
-Depends: com.pixelomer.mobilegoose (>=1.2)
-Filename: ./debs/com.pixelomer.joethegoose_2.0_iphoneos-arm64.deb
-Size: 5252
-MD5sum: 2d189c1457692005b9bab82ba7aef58b
-SHA1: 8d47a8a6adaa64474869db0504cd10bf2b465c6f
-SHA256: b8fa0109e4c951d9974cf5520b54084d397bd55ee3c750f2fbf21f73c96d4aef
-Section: Tweaks
-Priority: optional
-Description: A name tag for your goose
-Author: PixelOmer, zsaaiq
-Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/mobilegoose-joethegoose.html
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/goosename.png
-Name: Goose Name Tag
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mobilegoose-joethegoose.json
-
 Package: com.pixelomer.mobilegoose
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -132,10 +58,10 @@ Maintainer: zsaaiq
 Installed-Size: 1340
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.pixelomer.mobilegoose_2.1_iphoneos-arm64.deb
-Size: 606426
-MD5sum: 11b07c50fc03e79d131d2d60ff2b9b04
-SHA1: f8eb72dcda72ca303ea8e701abf688e3e29cc10a
-SHA256: 71db6419dcb86570c3f03c548cf95c87f4b89e7642238f5196e24d262e5ce516
+Size: 606434
+MD5sum: 99d1a65305b94a3d54d54b5cdaa15b29
+SHA1: f8527f90584eb5cb4b9d44ed2cb1e748c9045852
+SHA256: 6bacf5b399164974e915c95cab3c373dc8f5fe10d5dcbdc350eab3c29df71061
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
