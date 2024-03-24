@@ -24,8 +24,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"<p>Universal iOS Audio Visualizer</p><br><p>Currently supported Apps:</p><br><p>- YouTubeMusic</p><br><p>- Spotify</p><br><p>- SpringBoard, Lockscreen MusicPlayer, Lockscreen Bottom, ControlCenter</p>
-               ",
+               "markdown":"<p>Universal iOS Audio Visualizer</p><br><p>Currently supported Apps:</p><br><p>- YouTubeMusic</p><br><p>- Spotify</p><br><p>- SpringBoard, Lockscreen MusicPlayer, Lockscreen Bottom, ControlCenter</p>",
                "useSpacing":true,
                "useRawFormat":true
             }
