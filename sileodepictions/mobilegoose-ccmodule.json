@@ -1,0 +1,27 @@
+{
+   "minVersion":"0.4",
+   "class":"DepictionTabView",
+   "tabs":[
+      {
+         "class":"DepictionStackView",
+         "tabname":"Details",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "useMargins":true,
+               "title":"Compatible with iOS 15.0 +"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"<p>CCModule for MobileGoose</p>",
+               "useSpacing":true,
+               "useRawFormat":true
+            }
+         ],
+         "xPadding":10
+      }
+   ],
+   "tintColor": "#141414",
+   "backgroundColor": "#333332",
+   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/features/mobilegoose-ccmodule.png"
+}

@@ -7,6 +7,17 @@
          "tabname":"Details",
          "views":[
             {
+          "class":"DepictionScreenshotsView",
+          "itemCornerRadius":14,
+          "screenshots":[
+            {
+              "url":"https://zsaaiq.github.io/jailbreakrepo/screenshots/MobileGoose.png",
+              "accessibilityText":"font.png"
+            }
+                        ],
+                        "itemSize":"{160,284}"
+            },
+            {
                "class":"DepictionSubheaderView",
                "useMargins":true,
                "title":"Compatible with iOS 15.0 +"
