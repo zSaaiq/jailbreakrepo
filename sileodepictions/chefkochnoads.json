@@ -13,7 +13,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"<p>hides ads in Chefkoch iOS Apllication</p>",
+               "markdown":"<p>hides Ads in Chefkoch iOS Apllication</p>",
                "useSpacing":true,
                "useRawFormat":true
             }
