@@ -24,7 +24,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"<p>Annoying Goose for iOS 15 and up</p><br><p>Can bring custom Notes and Images.</p>
+               "markdown":"<p>Annoying Goose for iOS 15 and up</p><br><p>Can bring custom Notes and Images.</p>",
                "useSpacing":true,
                "useRawFormat":true
             }
