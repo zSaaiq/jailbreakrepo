@@ -1,1 +1,27 @@
-{"minVersion": "0.4", "class": "DepictionTabView", "tabs": [{"class": "DepictionStackView", "tabname": "Details", "views": [{"class": "DepictionSubheaderView", "useMargins": true, "title": "Compatible with iOS 15.0 +"}, {"class": "DepictionMarkdownView", "markdown": "<p>Annoying Goose for iOS 15</p>", "useSpacing": true, "useRawFormat": true}], "xPadding": 10}]}
+{
+   "minVersion":"0.4",
+   "class":"DepictionTabView",
+   "tabs":[
+      {
+         "class":"DepictionStackView",
+         "tabname":"Details",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "useMargins":true,
+               "title":"Compatible with iOS 15.0 +"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"<p>Annoying Goose for iOS 15</p>",
+               "useSpacing":true,
+               "useRawFormat":true
+            }
+         ],
+         "xPadding":10
+      }
+   ],
+   "tintColor": "#f47f1b",
+   "backgroundColor": "#ec3e04",
+   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/repo/features/mobilegoose.png"
+}

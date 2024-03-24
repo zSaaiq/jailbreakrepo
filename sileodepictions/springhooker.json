@@ -1,1 +1,52 @@
-{"minVersion": "0.4", "class": "DepictionTabView", "tabs": [{"class": "DepictionStackView", "tabname": "Details", "views": [{"class": "DepictionSubheaderView", "useMargins": true, "title": "Compatible with iOS 15.0 +"}, {"class": "DepictionMarkdownView", "markdown": "<p>Change things that affect the iOS SpringBoard</p>", "useSpacing": true, "useRawFormat": true}], "xPadding": 10}, {"class": "DepictionStackView", "tabname": "Changelog", "views": [{"class": "DepictionSubheaderView", "title": "Version 1.1"}, {"class": "DepictionMarkdownView", "markdown": "- Added Rootless iOS 15+ support"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionSubheaderView", "title": "Version 1.0"}, {"class": "DepictionMarkdownView", "markdown": "- Initial Release on BigBoss for iOS 13 and up"}]}], "tintColor": "#1abc9c", "backgroundColor": "#646464", "headerImage": "https://zsaaiq.github.io/jailbreakrepo//repo/features/springhooker.png"}
+{
+   "minVersion":"0.4",
+   "class":"DepictionTabView",
+   "tabs":[
+      {
+         "class":"DepictionStackView",
+         "tabname":"Details",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "useMargins":true,
+               "title":"Compatible with iOS 15.0 +"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"<p>Change things that affect the iOS SpringBoard</p>",
+               "useSpacing":true,
+               "useRawFormat":true
+            }
+         ],
+         "xPadding":10
+      },
+      {
+         "class":"DepictionStackView",
+         "tabname":"Changelog",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "title":"Version 1.1"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"- Added Rootless iOS 15+ support"
+            },
+            {
+               "class":"DepictionSeparatorView"
+            },
+            {
+               "class":"DepictionSubheaderView",
+               "title":"Version 1.0"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"- Initial Release on BigBoss for iOS 13 and up"
+            }
+         ]
+      }
+   ],
+   "tintColor":"#1abc9c",
+   "backgroundColor":"#646464",
+   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/repo/features/springhooker.jpg"
+}

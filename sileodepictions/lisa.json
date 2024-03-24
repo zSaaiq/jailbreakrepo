@@ -1,1 +1,52 @@
-{"minVersion": "0.4", "class": "DepictionTabView", "tabs": [{"class": "DepictionStackView", "tabname": "Details", "views": [{"class": "DepictionSubheaderView", "useMargins": true, "title": "Compatible with iOS 15.0 +"}, {"class": "DepictionMarkdownView", "markdown": "<p>Full incoming OLED notifications</p>", "useSpacing": true, "useRawFormat": true}], "xPadding": 10}, {"class": "DepictionStackView", "tabname": "Changelog", "views": [{"class": "DepictionSubheaderView", "title": "Version 1.7"}, {"class": "DepictionMarkdownView", "markdown": "- Added support for iOS 15 and up Rootless Jailbreaks"}]}]}
+{
+   "minVersion":"0.4",
+   "class":"DepictionTabView",
+   "tabs":[
+      {
+         "class":"DepictionStackView",
+         "tabname":"Details",
+         "views":[
+           {
+              "class":"DepictionScreenshotsView",
+              "itemCornerRadius":14,
+              "screenshots":[
+                 {
+                    "url":"https://zsaaiq.github.io/jailbreakrepo/repo/screenshots/Lisa.png",
+                    "accessibilityText":"font.png"
+                 }
+              ],
+              "itemSize":"{160,284}"
+           },
+            {
+               "class":"DepictionSubheaderView",
+               "useMargins":true,
+               "title":"Compatible with iOS 15.0 +"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"<p>Full incoming OLED notifications</p>",
+               "useSpacing":true,
+               "useRawFormat":true
+            }
+         ],
+         "xPadding":10
+      },
+      {
+         "class":"DepictionStackView",
+         "tabname":"Changelog",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "title":"Version 1.7"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"- Added support for iOS 15 and up Rootless Jailbreaks"
+            }
+         ]
+      }
+   ],
+   "tintColor": "#f2baeb",
+   "backgroundColor": "black",
+   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/repo/features/Lisa.png"
+}

@@ -1,1 +1,26 @@
-{"minVersion": "0.4", "class": "DepictionTabView", "tabs": [{"class": "DepictionStackView", "tabname": "Details", "views": [{"class": "DepictionSubheaderView", "useMargins": true, "title": "Compatible with iOS 15.0 +"}, {"class": "DepictionMarkdownView", "markdown": "<p>hides ads in Chefkoch iOS Apllication</p>", "useSpacing": true, "useRawFormat": true}], "xPadding": 10}]}
+{
+   "minVersion":"0.4",
+   "class":"DepictionTabView",
+   "tabs":[
+      {
+         "class":"DepictionStackView",
+         "tabname":"Details",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "useMargins":true,
+               "title":"Compatible with iOS 15.0 +"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"<p>hides ads in Chefkoch iOS Apllication</p>",
+               "useSpacing":true,
+               "useRawFormat":true
+            }
+         ],
+         "xPadding":10
+      }
+   ],
+   "tintColor": "green",
+   "backgroundColor": "black"
+}
