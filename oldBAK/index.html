@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to my Jailbreak repo</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      overflow-y: auto;
+      overscroll-behavior-y: none;
+    }
+    @media only screen and (max-width: 414px) {
+      .centered {
+        padding: 20px;
+      }
+      .ios-image {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="snow"></div>
+  <div class="centered">
+    <h1>[]</h1>
+    <h1>[]</h1>
+    <h1>[]</h1>
+    <h1></h1>
+    <h1></h1>
+    <h1>Welcome to my Jailbreak repo!</h1>
+    <h1>SpringHooker</h1>
+    <div class="ios-image">
+      <img src="images/SpringHooker.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+    </div>
+    <h1>MobileGoose</h1>
+    <div class="ios-image">
+      <img src="images/MobileGoose.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+    </div>
+    <h1>MobileGooseCCToggle</h1>
+    <div class="ios-image">
+      <img src="images/MobileGooseCCModule.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+    </div>
+    <h1>ColorfulGoose</h1>
+    <div class="ios-image">
+      <img src="images/colorfulgoose.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+    </div>
+    <h1>Goose Name Tag</h1>
+    <div class="ios-image">
+      <img src="images/goosename.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+    </div>
+    <h1>Mitsuha Forever</h1>
+    <h2>Universal iOS audio visualizer.</h2>
+    <div class="ios-image">
+      <img src="images/MitsuhaForever.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless Music Support Removed Preferences are not working currently. Spotify wavehigh fixed. SBLS, SB, SBLSMusicPlayer and ControlCenter are working.</div>
+    </div>
+    <h1>libmitsuhaforever</h1>
+    <h2>[MitsuhaForever dependency]</h2>
+    <div class="ios-image">
+      <img src="images/MitsuhaForever.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless.</div>
+    </div>
+    <h1>AudioSnapshotServer</h1>
+    <h2>[MitsuhaForever dependency]</h2>
+    <div class="ios-image">
+      <img src="images/MitsuhaForever.png" alt="iOS-shaped image">
+      <div class="ios-text">Supports iOS 15-16 Rootless.</div>
+    </div>
+    <div class="button-container">
+      <a button id="sileoButton" href="sileo://source/https://zsaaiq.github.io/jailbreakrepo" class="button sileo">Add to Sileo</a>
+      <a button id="zebraButton" href="zbra://sources/add/https://zsaaiq.github.io/jailbreakrepo" class="button zebra">Add to Zebra</a>
+    </div>
+  </div>
+  <script>
+    function createSnowflakes() {
+      const snowContainer = document.getElementById('snow');
+      const flakes = [];
+      const numFlakes = 50;
+
+      for (let i = 0; i < numFlakes; i++) {
+        const flake = document.createElement('div');
+        flake.className = 'flake';
+        flake.style.width = Math.random() * 8 + 'px';
+        flake.style.height = flake.style.width;
+        flake.style.background = 'rgba(255, 255, 255, ' + (Math.random() * 0.5 + 0.5) + ')';
+        flake.style.left = Math.random() * 100 + '%';
+        flake.style.animationDuration = Math.random() * 4 + 2 + 's';
+        flakes.push(flake);
+        snowContainer.appendChild(flake);
+      }
+
+      return flakes;
+    }
+
+    createSnowflakes();
+
+    function isGerman() {
+      return navigator.language.startsWith('de');
+    }
+
+    function updateButtonText() {
+      if (isGerman()) {
+        document.getElementById('cydiaButton').innerText = 'Hinzufügen zu Cydia';
+        document.getElementById('sileoButton').innerText = 'Hinzufügen zu Sileo';
+        document.getElementById('zebraButton').innerText = 'Hinzufügen zu Zebra';
+      }
+    }
+    updateButtonText();
+  </script>
+</body>
+</html>

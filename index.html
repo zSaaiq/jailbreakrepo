@@ -1,118 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to my Jailbreak repo</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      overflow-y: auto;
-      overscroll-behavior-y: none;
-    }
-    @media only screen and (max-width: 414px) {
-      .centered {
-        padding: 20px;
-      }
-      .ios-image {
-        margin-bottom: 20px;
-      }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="src/css/css-reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="icon" type="image/x-png" href="/res/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1" />
+  <script src="https://kit.fontawesome.com/d5effce557.js" crossorigin="anonymous"></script>
+  <title>WebShell</title>
 </head>
 
 <body>
-  <div id="snow"></div>
-  <div class="centered">
-    <h1>[]</h1>
-    <h1>[]</h1>
-    <h1>[]</h1>
-    <h1></h1>
-    <h1></h1>
-    <h1>Welcome to my Jailbreak repo!</h1>
-    <h1>SpringHooker</h1>
-    <div class="ios-image">
-      <img src="images/SpringHooker.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+  <main id="main">
+    <div id="bars">
+      <div id="bar-1">WebShell.x64_x86</div>
+      <div id="bar-2"></div>
+      <div id="bar-3"></div>
+      <div id="bar-4"></div>
+      <div id="bar-5"></div>
     </div>
-    <h1>MobileGoose</h1>
-    <div class="ios-image">
-      <img src="images/MobileGoose.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+    <br>
+    <div id="terminal">
+      <div>
+        <span id="prompt"><span id="pre-user"></span>@<span id="pre-host"></span>:$ ~ </span>
+      </div>
+      <!-- command output will be inserted before #write-lines-->
+      <a id="write-lines"></a>
     </div>
-    <h1>MobileGooseCCToggle</h1>
-    <div class="ios-image">
-      <img src="images/MobileGooseCCModule.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless</div>
+    <div id="input-line">
+      <div>
+        <p id="password-input" style="display: none;">Password: <input id="password-field" autocomplete="off"
+            type="password" /></p>
+        <p id="input-hidden">
+          <span id="prompt"><span id="user"></span>@<span id="host"></span>:$ ~
+          </span>
+          <input id="user-input" type="text" enterkeyhint="Enter" spellcheck="false" autocapitalize="none"
+            autocomplete="off" />
+        </p>
+      </div>
+      <br>
     </div>
-    <h1>ColorfulGoose</h1>
-    <div class="ios-image">
-      <img src="images/colorfulgoose.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless</div>
-    </div>
-    <h1>Goose Name Tag</h1>
-    <div class="ios-image">
-      <img src="images/goosename.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless</div>
-    </div>
-    <h1>Mitsuha Forever</h1>
-    <h2>Universal iOS audio visualizer.</h2>
-    <div class="ios-image">
-      <img src="images/MitsuhaForever.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless Music Support Removed Preferences are not working currently. Spotify wavehigh fixed. SBLS, SB, SBLSMusicPlayer and ControlCenter are working.</div>
-    </div>
-    <h1>libmitsuhaforever</h1>
-    <h2>[MitsuhaForever dependency]</h2>
-    <div class="ios-image">
-      <img src="images/MitsuhaForever.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless.</div>
-    </div>
-    <h1>AudioSnapshotServer</h1>
-    <h2>[MitsuhaForever dependency]</h2>
-    <div class="ios-image">
-      <img src="images/MitsuhaForever.png" alt="iOS-shaped image">
-      <div class="ios-text">Supports iOS 15-16 Rootless.</div>
-    </div>
-    <div class="button-container">
-      <a button id="sileoButton" href="sileo://source/https://zsaaiq.github.io/jailbreakrepo" class="button sileo">Add to Sileo</a>
-      <a button id="zebraButton" href="zbra://sources/add/https://zsaaiq.github.io/jailbreakrepo" class="button zebra">Add to Zebra</a>
-    </div>
-  </div>
-  <script>
-    function createSnowflakes() {
-      const snowContainer = document.getElementById('snow');
-      const flakes = [];
-      const numFlakes = 50;
-
-      for (let i = 0; i < numFlakes; i++) {
-        const flake = document.createElement('div');
-        flake.className = 'flake';
-        flake.style.width = Math.random() * 8 + 'px';
-        flake.style.height = flake.style.width;
-        flake.style.background = 'rgba(255, 255, 255, ' + (Math.random() * 0.5 + 0.5) + ')';
-        flake.style.left = Math.random() * 100 + '%';
-        flake.style.animationDuration = Math.random() * 4 + 2 + 's';
-        flakes.push(flake);
-        snowContainer.appendChild(flake);
-      }
-
-      return flakes;
-    }
-
-    createSnowflakes();
-
-    function isGerman() {
-      return navigator.language.startsWith('de');
-    }
-
-    function updateButtonText() {
-      if (isGerman()) {
-        document.getElementById('cydiaButton').innerText = 'Hinzufügen zu Cydia';
-        document.getElementById('sileoButton').innerText = 'Hinzufügen zu Sileo';
-        document.getElementById('zebraButton').innerText = 'Hinzufügen zu Zebra';
-      }
-    }
-    updateButtonText();
-  </script>
+  </main>
 </body>
+
+<script type="module" src="./src/styles.ts"></script>
+<script type="module" src="./src/main.ts"></script>
+
 </html>
