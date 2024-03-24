@@ -132,10 +132,10 @@ Maintainer: zsaaiq
 Installed-Size: 1340
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.pixelomer.mobilegoose_2.1_iphoneos-arm64.deb
-Size: 606694
-MD5sum: 823a1c5105879690d9ac6484337b8deb
-SHA1: 8b8aff7fa916bdbbaa99419c46bdee4b69f134be
-SHA256: 30cfa4d4971c5f6473b359c3c71f86a926f5f5d60cf5ad06788d47f863cd28ca
+Size: 606864
+MD5sum: ffa0d8c847f2fee8ffb9a510aee4929b
+SHA1: 29f4d1ac0e224ebf28c98c9eb7beff6b38958f87
+SHA256: 6520aba50a942d85d4eadfc7cb1dc898acfd2f182a21c4b10aa4318a870cc762
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
