@@ -13,7 +13,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"<p>Dress up ypur Lockscreen</p>",
+               "markdown":"<p>Dress up your Lockscreen</p>",
                "useSpacing":true,
                "useRawFormat":true
             }
