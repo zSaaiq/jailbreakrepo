@@ -19,6 +19,20 @@
             }
          ],
          "xPadding":10
+      },
+      {
+         "class":"DepictionStackView",
+         "tabname":"Changelog",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "title":"Version 1.0.3"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"- Added support for iOS 15 and up Rootless Jailbreaks"
+            }
+         ]
       }
    ],
    "tintColor": "#141414",
