@@ -19,8 +19,23 @@
             }
          ],
          "xPadding":10
+      },
+      {
+         "class":"DepictionStackView",
+         "tabname":"Changelog",
+         "views":[
+            {
+               "class":"DepictionSubheaderView",
+               "title":"Version 1.0"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"- Initial Release"
+            }
+         ]
       }
    ],
    "tintColor": "green",
-   "backgroundColor": "black"
+   "backgroundColor": "black",
+   "headerImage":"https://zsaaiq.github.io/jailbreakrepo/features/chefkochnoads.png"
 }

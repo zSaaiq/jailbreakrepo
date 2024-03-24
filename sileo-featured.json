@@ -4,6 +4,11 @@
     "itemCornerRadius": 10,
     "banners": [
         {
+            "title": "MitsuhaForever",
+            "package": "com.ryannair05.mitsuhaforever",
+            "url": "https://zsaaiq.github.io/jailbreakrepo/features/mitsuhaforever.png"
+        },
+        {
             "title": "Juin",
             "package": "love.litten.juin",
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/Juin.png"
@@ -26,32 +31,12 @@
         {
             "title": "SpringHooker",
             "package": "me.zsaaiq.springhooker",
-            "url": "https://zsaaiq.github.io/jailbreakrepo/features/springhooker.jpg"
-        },
-        {
-            "title": "MitsuhaForever",
-            "package": "com.ryannair05.mitsuhaforever",
-            "url": "https://zsaaiq.github.io/jailbreakrepo/features/mitsuhaforever.png"
+            "url": "https://zsaaiq.github.io/jailbreakrepo/features/springhooker.png"
         },
         {
             "title": "MobileGoose",
             "package": "com.pixelomer.mobilegoose",
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/mobilegoose.png"
-        },
-        {
-            "title": "MobileGooseCCModule",
-            "package": "com.captinc.mobilegoosemodule",
-            "url": "https://zsaaiq.github.io/jailbreakrepo/features/mobilegoose-ccmodule.png"
-        },
-        {
-            "title": "Joethegoose",
-            "package": "com.pixelomer.joethegoose",
-            "url": "https://zsaaiq.github.io/jailbreakrepo/features/mobilegoose-nametag.png"
-        },
-        {
-            "title": "Colorfulgoose",
-            "package": "com.pixelomer.colorfulgoose",
-            "url": "https://zsaaiq.github.io/jailbreakrepo/features/mobilegoose-colorfulgoose.png"
         }
     ]
   }

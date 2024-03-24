@@ -132,10 +132,10 @@ Maintainer: zsaaiq
 Installed-Size: 1340
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.pixelomer.mobilegoose_2.1_iphoneos-arm64.deb
-Size: 606712
-MD5sum: 03ed6d6ec72e0d809302c9324cab31f7
-SHA1: d34101529555514ab8d11970b5a0650fccd3a58f
-SHA256: 4c088cf889742d6dd61b1ed4b9b03ee2c5314216a82ae736eb17b48ec091fae7
+Size: 606694
+MD5sum: 823a1c5105879690d9ac6484337b8deb
+SHA1: 8b8aff7fa916bdbbaa99419c46bdee4b69f134be
+SHA256: 30cfa4d4971c5f6473b359c3c71f86a926f5f5d60cf5ad06788d47f863cd28ca
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
@@ -509,15 +509,15 @@ Maintainer: zSaaiq
 Installed-Size: 428
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/me.zsaaiq.springhooker_1.1_iphoneos-arm64.deb
-Size: 50578
-MD5sum: bd899e82cb6a8946d506c060b8492c42
-SHA1: 7ac0a589196e2fb85e0480be44f8f0f27c683149
-SHA256: a7d81e916bcb9e9461d4a420261063e361615a7b23821b7abaf1ce78c463bb1c
+Size: 50544
+MD5sum: 98d444cd622ac3889d7817ad6b635fea
+SHA1: b5c715eadcfdbb00bcbef7d1308a82dd73e00cd6
+SHA256: c5029000ee7e9f9b22b58d1a6dc2cf607808fc807d25867f9e88d6a52435f777
 Section: Tweaks
 Description: Change settings that affect the SpringBoard!
 Author: zSaaiq
 Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/springhooker.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/iconFullSize.png
 Name: SpringHooker
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/SpringHooker.json
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/springhooker.json
 

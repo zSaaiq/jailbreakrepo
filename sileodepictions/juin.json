@@ -6,6 +6,17 @@
          "class":"DepictionStackView",
          "tabname":"Details",
          "views":[
+           {
+              "class":"DepictionScreenshotsView",
+              "itemCornerRadius":14,
+              "screenshots":[
+                 {
+                    "url":"https://zsaaiq.github.io/jailbreakrepo/screenshots/Juin.png",
+                    "accessibilityText":"font.png"
+                 }
+              ],
+              "itemSize":"{160,284}"
+           },
             {
                "class":"DepictionSubheaderView",
                "useMargins":true,
