@@ -6,6 +6,7 @@ import os
 import re
 import minify_html
 from jinja2 import Environment, FileSystemLoader
+from extra import *
 
 root = os.path.dirname(os.path.abspath(__file__))
 templates_dir = os.path.join(root, '../templates')
@@ -14,33 +15,6 @@ env = Environment(loader=FileSystemLoader(templates_dir), trim_blocks=True, lstr
 html_template = env.get_template('index.html')
 
 tweaks = [
-    {
-        "file": "juin",
-        "title": "Juin",
-        "min_ios": "15.0",
-        "description": "<p>Spotify inspired MediaPlayer for iOS Lockscreen</p>",
-        "changes": [
-            ["1.2", "Added support for iOS 15 and up Rootless Jailbreaks"]
-        ],
-    },
-    {
-        "file": "lisa",
-        "title": "Lisa",
-        "min_ios": "15.0",
-        "description": "<p>Full incoming OLED notifications</p>",
-        "changes": [
-            ["1.7", "Added support for iOS 15 and up Rootless Jailbreaks"]
-        ],
-    },
-        {
-            "file": "violet",
-            "title": "Violet",
-            "min_ios": "15.0",
-            "description": "<p>Sweet addition to your wallpaper</p>",
-            "changes": [
-                ["1.7", "Added support for iOS 15 and up Rootless Jailbreaks"]
-            ],
-        },
         {
             "file": "ytmusicnocast",
             "title": "YouTubeMusicNoCast",
@@ -51,66 +25,12 @@ tweaks = [
                     ],
         },
         {
-            "file": "rose",
-            "title": "Rose",
+            "file": "chefkochnoads",
+            "title": "ChefKochNoAds",
             "min_ios": "15.0",
-            "description": "<p>The most advanced and feature rich system wide haptic feedback tweak</p>",
-            "changes": [
-                ["1.1", "Added support for iOS 15 and up Rootless Jailbreaks"]
-                    ],
+            "description": "<p>hides ads in Chefkoch iOS Apllication</p>"
         },
-        {
-            "file": "dress",
-            "title": "Dress",
-            "min_ios": "15.0",
-            "description": "<p>Dress up ypur Lockscreen</p>",
-            "changes": [
-                ["2.7", "Added support for iOS 15 and up Rootless Jailbreaks"]
-                    ],
-        },
-        {
-            "file": "lidell",
-            "title": "Lidell",
-            "min_ios": "15.0",
-            "description": "<p>Lidell notification banners</p>",
-            "changes": [
-                ["1.2.2", "Added support for iOS 15 and up Rootless Jailbreaks"]
-                    ],
-        },
-    {
-        "file": "springhooker",
-        "title": "SpringHooker",
-        "min_ios": "15.0",
-        "description": "<p>Change things that affect the SpringBoard</p>",
-        "changes": [
-            ["1.1", "Added support for iOS 15 and up Rootless Jailbreaks"],
-            ["1.0", "Release for iOS 13 and up"]
-        ],
-    },
-    {
-        "file": "mitsuhaforever",
-        "title": "MitsuhaForever",
-        "min_ios": "15.0",
-        "description": "<p>Universal iOS Audio Visualizer</p>",
-        "changes": [
-            ["2.2.2", "Added support for YouTubeMusic App with Preferences inside the App."],
-            ["2.2.2", "Added support for Siri + Static and Siri Dynamic Colors"],
-            ["2.2.1", "Release for iOS 15 and up"]
-        ],
-    },
-    {
-        "file": "MobileGoose",
-        "title": "MobileGoose",
-        "min_ios": "15.0",
-        "description": "<p>Annoying Goose for iOS 15</p>"
-    },
-    {
-        "file": "chefkochnoads",
-        "title": "ChefKochNoAds",
-        "min_ios": "15.0",
-        "description": "<p>hides ads in Chefkoch iOS Apllication</p>"
-    },
-]
+] + extra
 
 sileo_keys = [
     "headerImage", "tintColor", "backgroundColor"

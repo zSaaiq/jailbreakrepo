@@ -5,15 +5,17 @@ Maintainer: zsaaiq <kevin.felix90@gmx.de>
 Installed-Size: 192
 Depends: firmware (>=15.0), mobilesubstrate, com.opa334.ccsupport, com.pixelomer.mobilegoose
 Filename: ./debs/com.captinc.mobilegoosemodule_1.0.3_iphoneos-arm64.deb
-Size: 14476
-MD5sum: bd8d3460ce29f31f33c0b5901602be47
-SHA1: adf48e191afda349cc522ee04946a2746a57a378
-SHA256: 5f04416606c24e5bfd80c25c0371f21c7cd24fd81b26e8e58091b17e6c5e6b42
+Size: 14512
+MD5sum: 65460d8b2bc7fc9b2f673c8e409c9a9e
+SHA1: 8f3395f414d55753e8169d6de75748998c77a3cf
+SHA256: b7a7808eff7aacd45c5b3e22e842b2a6d47e15b64c9b5d191a3801406b667d65
 Section: Tweaks
 Description: Control Center module to toggle MobileGoose on/off
 Author: Capt Inc, zsaaiq <kevin.felix90@gmx.de>
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/mobilegoose-ccmodule.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGooseCCModule.png
 Name: MobileGooseModule
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mobilegoose-ccmodule.json
 
 Package: com.peterdev.libpddokdo
 Version: 1.3.5
@@ -54,16 +56,18 @@ Maintainer: zsaaiq
 Installed-Size: 168
 Depends: com.pixelomer.mobilegoose (>=2.0)
 Filename: ./debs/com.pixelomer.colorfulgoose_2.0_iphoneos-arm64.deb
-Size: 4442
-MD5sum: d2ec4bc3cee7f7146eb57371705e77f5
-SHA1: 25a7b8aecf01ba8332eac71cccf073859932af95
-SHA256: 225939b9f38b0e2f7346c0e3ab28246511a799caa77915d2ac54e8e71db4eb55
+Size: 4476
+MD5sum: 2abf33d6f845f3beec758129d8018f47
+SHA1: 52e2d919f5d55c437c4ede6eb8925442d908eaa2
+SHA256: 870c4bd299aa86a244cf6aaf4ca2f5626c932ad23386be320f6f365bca1a9ad2
 Section: Tweaks
 Priority: optional
 Description: Add color to your goose
 Author: PixelOmer, zsaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mobilegoose-colorfulgoose.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/colorfulgoose.png
 Name: ColorfulGoose
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mobilegoose-colorfulgoose.json
 
 Package: com.pixelomer.joethegoose
 Version: 1.0.2
@@ -89,16 +93,18 @@ Maintainer: zsaaiq
 Installed-Size: 172
 Depends: com.pixelomer.mobilegoose (>=1.2)
 Filename: ./debs/com.pixelomer.joethegoose_2.0_iphoneos-arm64.deb
-Size: 5228
-MD5sum: 06abcb39ddd9d8e8805099cd75d43874
-SHA1: d9ab6989c64e6fda6658ddad3b63a726a25ae48f
-SHA256: 58306486558ba21ba08bfc4c66f1c162dc02203dce1557c1d3f6fdbc740f0bfa
+Size: 5252
+MD5sum: 2d189c1457692005b9bab82ba7aef58b
+SHA1: 8d47a8a6adaa64474869db0504cd10bf2b465c6f
+SHA256: b8fa0109e4c951d9974cf5520b54084d397bd55ee3c750f2fbf21f73c96d4aef
 Section: Tweaks
 Priority: optional
 Description: A name tag for your goose
 Author: PixelOmer, zsaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/mobilegoose-joethegoose.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/goosename.png
 Name: Goose Name Tag
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mobilegoose-joethegoose.json
 
 Package: com.pixelomer.mobilegoose
 Version: 2.0
@@ -111,6 +117,25 @@ Size: 606062
 MD5sum: 879b7ff2338faf2a4f72946b1512eac9
 SHA1: 62e95175c18e2185bf67c190a5a3eda900b2e79c
 SHA256: b6fe137b2be3148f2e177b3a6f95c45ade55a6245b7462aef2ad5f3a0598699b
+Section: Tweaks
+Description: An annoying goose for your Rootless iOS 15-16 iDevice
+Author: pixelomer, zsaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/MobileGoose.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
+Name: MobileGoose
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/MobileGoose.json
+
+Package: com.pixelomer.mobilegoose
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq
+Installed-Size: 1340
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.pixelomer.mobilegoose_2.1_iphoneos-arm64.deb
+Size: 606760
+MD5sum: 421e3ac59eff1786b094fd963250f796
+SHA1: 9163e588a767a69fdc9a541ff05d5117aaf97239
+SHA256: f242ce453f54229536001c55f9a041809a3d4f44b02f86aeaab04db135d8c398
 Section: Tweaks
 Description: An annoying goose for your Rootless iOS 15-16 iDevice
 Author: pixelomer, zsaaiq
@@ -257,17 +282,17 @@ Installed-Size: 1092
 Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
 Replaces: com.ryannair05.mitsuhaforever (<=2), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2), com.addiezone.onemitsuhadopaminesettings, com.addiezone.twomitsuhadopaminesettings, com.addiezone.threemitsuhadopaminesettings, com.addiezone.fourmitsuhadopaminesettings, com.addiezone.fivemitsuhadopaminesettings, com.addiezone.sixmitsuhadopaminesettings
 Filename: ./debs/com.ryannair05.mitsuhaforever_2.2.3_iphoneos-arm64.deb
-Size: 97820
-MD5sum: 5f1548b0c4f2f02134b97c8038c5f8f1
-SHA1: b0692fead46640edd96ebeeec5b51bd13ef27217
-SHA256: 5695508ccb46903946e96fe335306c1601eee16524d9bd3280fc2955a37015f6
+Size: 97860
+MD5sum: ee32da2ef0f3898433559ae5863886b4
+SHA1: 1ef98bc23d771b2e25c92d825c3c86f217fbdd14
+SHA256: e828005908e3e8f4d06fb3111e5be086f497891a0c6bd1f4e935b2b196705040
 Section: Tweaks
 Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
 Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
-Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/index.html
+Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/mitsuhaforever.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/MitsuhaForever.png
 Name: Mitsuha Forever
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/com.ryannair05.mitsuhaforever/sileo.json
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/repo/sileodepictions/mitsuhaforever.json
 
 Package: com.zsaaiq.chefkochnoads
 Version: 1.0
@@ -370,10 +395,10 @@ Maintainer: Litten
 Installed-Size: 1552
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), com.mrgcgamer.libgcuniversal
 Filename: ./debs/love.litten.dress_2.7_iphoneos-arm64.deb
-Size: 994132
-MD5sum: 430cc6e2681bf388f7be70f580d4f520
-SHA1: 0a17e71f62c514435505db74752f0bb53ffae563
-SHA256: 91156e5eb2c4c773fb8ab2e6b2b50758d557fb1bd04e641455dfac9b0c113058
+Size: 994036
+MD5sum: 4e4a9511413b2819c4de7d5ee5b843e0
+SHA1: 36d2d54719b067eb0ee43c8fc578196eb3efcf20
+SHA256: 30760a8b91d638bb90ccd8e7658b2cd43029cc8ee8e16b6052ca36c5abf5ae7d
 Section: Tweaks
 Description: Dress up your lock screen
 Author: Litten
@@ -389,10 +414,10 @@ Maintainer: Litten
 Installed-Size: 1500
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.juin_1.2_iphoneos-arm64.deb
-Size: 1008876
-MD5sum: 4c74c41ed3c8c63ec7f6fca914b134a6
-SHA1: 70ee6998e3b3c6fc34e5d6e9cfaaf65c2166c8c4
-SHA256: 194f99f8e8388b71996a7eb52bbdb44c7b4762776360f3caa29ef5b5a716e89e
+Size: 1008636
+MD5sum: add7456f499d320274013fe5346a7130
+SHA1: 1b5c7a41b2166cb760454d7151a43e098907fca6
+SHA256: 6f95e99b920c32313fea2f8cb23a2faf4234e6aeaec031592ccbaf64357f02b1
 Section: Tweaks
 Description: Spotify inspired lock screen player
 Author: Litten
@@ -401,25 +426,6 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/Juin.png
 Name: Juin 🏖
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/juin.json
 
-Package: love.litten.liddell
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: Litten
-Installed-Size: 1724
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), love.litten.libkitten (>= 1.3), com.mrgcgamer.libgcuniversal
-Filename: ./debs/love.litten.liddell_1.3_iphoneos-arm64.deb
-Size: 1220874
-MD5sum: 8db23fad542e091c241da18337ee47c8
-SHA1: ada6ca5b23a5fbce7c90fb243d2244682d1e28eb
-SHA256: fec5342e0a7d1cbe1b611804df5d531e5e0c0033829418e8d47de46daa1e4f4b
-Section: Tweaks
-Description: Liddell notification banners
-Author: Litten
-Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/lidell.html
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lidell.png
-Name: Liddell 🫖
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lidell.json
-
 Package: love.litten.lisa
 Version: 1.7
 Architecture: iphoneos-arm64
@@ -427,10 +433,10 @@ Maintainer: zSaaiq
 Installed-Size: 1304
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.lisa_1.7_iphoneos-arm64.deb
-Size: 807092
-MD5sum: 6b6e812eaabd938cdb60375d392bd0d4
-SHA1: 9a69d21122cc08f72300a515aa020eb3a4ed45b6
-SHA256: 54231aa0e24884ddb4608503f9d902956ba04a28c21595395eccb287bada571d
+Size: 807120
+MD5sum: c9258238fb285ce2acbd67e435ad3124
+SHA1: e7815c6ecf337cfc3d3cb295451cbf0e658772df
+SHA256: 4896ced05032f45dd32f644f53bcb17d7bedaa3b590a84bd48c6415e0dc2a6a6
 Section: Tweaks
 Description: Full incoming OLED notifications
 Author: Litten & Esquilli
@@ -439,25 +445,6 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
 Name: Lisa 💅🏻
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lisa.json
 
-Package: love.litten.rose
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: zSaaiq
-Installed-Size: 1104
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), dev.traurige.libkitten (>= 1.5)
-Filename: ./debs/love.litten.rose_1.1_iphoneos-arm64.deb
-Size: 378554
-MD5sum: afd7c6bf520056bb4ec4567230e45133
-SHA1: 9ada85456b191cf8143764bebbacc867b5b75077
-SHA256: 0b9b7a91bd1dd83446be7516bef7b387fbd4ac6822844c3d7e378a76945f4403
-Section: Tweaks
-Description: The most advanced and feature rich system wide haptic feedback tweak
-Author: Litten
-Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/rose.html
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/Rose.png
-Name: Rose 🌹
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/rose.json
-
 Package: love.litten.violet
 Version: 1.8
 Architecture: iphoneos-arm64
@@ -465,10 +452,10 @@ Maintainer: zSaaiq
 Installed-Size: 1812
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
 Filename: ./debs/love.litten.violet_1.8_iphoneos-arm64.deb
-Size: 1011680
-MD5sum: 530d00d5f70dd6f36d60bcf2868c0e30
-SHA1: 6ed1cb779b9f41d4b8d3de59af09e8e605237ded
-SHA256: b14cc83511c38fc10c86c501eacd749bc6e28d8dee9e970d59523ff946b84fee
+Size: 1011870
+MD5sum: b964cc6ebd41c7629c357ad9d4641215
+SHA1: 703c57255f1ed9c68edcaecca4ab3766015e35f3
+SHA256: b2ea5d873c306465f86e47fb72fa2c77c9540b378f3546ba1742a686c1a90c77
 Section: Tweaks
 Description: Sweet addition to your wallpaper
 Author: Litten
@@ -519,16 +506,17 @@ Package: me.zsaaiq.springhooker
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: zSaaiq
-Installed-Size: 432
+Installed-Size: 428
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/me.zsaaiq.springhooker_1.1_iphoneos-arm64.deb
-Size: 50624
-MD5sum: 97e3cedc733aabb5cd75bd0d6f6ac505
-SHA1: 91d2db388c6620b4956f132a07005db6ca3d23e4
-SHA256: ac1a0fc8958e0fd180bf8fda620562c031181d058a1b45000eaf56636b7f5f43
+Size: 50578
+MD5sum: bd899e82cb6a8946d506c060b8492c42
+SHA1: 7ac0a589196e2fb85e0480be44f8f0f27c683149
+SHA256: a7d81e916bcb9e9461d4a420261063e361615a7b23821b7abaf1ce78c463bb1c
 Section: Tweaks
 Description: Change settings that affect the SpringBoard!
 Author: zSaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/springhooker.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/iconFullSize.png
 Name: SpringHooker
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/SpringHooker.json
