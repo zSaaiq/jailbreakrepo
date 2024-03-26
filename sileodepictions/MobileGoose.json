@@ -35,6 +35,14 @@
          "class":"DepictionStackView",
          "tabname":"Changelog",
          "views":[
+           {
+              "class":"DepictionSubheaderView",
+              "title":"Version 2.1.1"
+           },
+           {
+              "class":"DepictionMarkdownView",
+              "markdown":"- fixed Mods inside MobileGoose"
+           },
             {
                "class":"DepictionSubheaderView",
                "title":"Version 2.1"

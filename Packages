@@ -70,6 +70,25 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
 Name: MobileGoose
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/MobileGoose.json
 
+Package: com.pixelomer.mobilegoose
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: zsaaiq
+Installed-Size: 1340
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.pixelomer.mobilegoose_2.1.1_iphoneos-arm64.deb
+Size: 605998
+MD5sum: 5d30a9dcf94f9144089dcd8d5829dee8
+SHA1: 84159ace39ec78e8b821cc7e26eef8a5f7ae79c0
+SHA256: 329e47a605bfc373894f91b1cc44efd42816e43236cccb8a4cdac13084104dc7
+Section: Tweaks
+Description: An annoying goose for your Rootless iOS 15-16 iDevice
+Author: pixelomer, zsaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/MobileGoose.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
+Name: MobileGoose
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/MobileGoose.json
+
 Package: com.ryannair05.audiosnapshotserver
 Version: 2.3
 Architecture: iphoneos-arm64
