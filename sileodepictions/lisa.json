@@ -35,6 +35,14 @@
          "class":"DepictionStackView",
          "tabname":"Changelog",
          "views":[
+           {
+              "class":"DepictionSubheaderView",
+              "title":"Version 1.7.1"
+           },
+           {
+              "class":"DepictionMarkdownView",
+              "markdown":"- Added option to enable even while unlocked."
+           },
             {
                "class":"DepictionSubheaderView",
                "title":"Version 1.7"

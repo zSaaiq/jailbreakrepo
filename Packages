@@ -409,6 +409,25 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
 Name: Lisa 💅🏻
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lisa.json
 
+Package: love.litten.lisa
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1304
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
+Filename: ./debs/love.litten.lisa_1.7.1_iphoneos-arm64.deb
+Size: 807174
+MD5sum: b7bd3abe1dce48ab446146f1e62b0e9d
+SHA1: 26b4631a1ef6a481c7f9c64c33e5f3b7e4a5d07c
+SHA256: 79a23af01aaf1a4d5a543db02a5cfcff3a5ad802850f63ad661fbd0148ab1ccc
+Section: Tweaks
+Description: Full incoming OLED notifications
+Author: Litten & Esquilli & zSaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/lisa.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
+Name: Lisa 💅🏻
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lisa.json
+
 Package: love.litten.violet
 Version: 1.8
 Architecture: iphoneos-arm64
