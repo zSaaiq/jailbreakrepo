@@ -371,6 +371,25 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/Juin.png
 Name: Juin 🏖
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/juin.json
 
+Package: love.litten.juin
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1516
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0)
+Filename: ./debs/love.litten.juin_1.2.1_iphoneos-arm64.deb
+Size: 1009034
+MD5sum: c47919e8fcdf010cbe4b9e7ff49cee2c
+SHA1: e286b3be90e211d1e230564281e3c9c9e0f6d370
+SHA256: 996d183d79d329492151878c99f9dc9c4c4df68d677bf25165f44657704dc61b
+Section: Tweaks
+Description: Spotify inspired lock screen player
+Author: Litten, zSaaiq
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/juin.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Juin.png
+Name: Juin 🏖
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/juin.json
+
 Package: love.litten.lisa
 Version: 1.7
 Architecture: iphoneos-arm64

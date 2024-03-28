@@ -35,13 +35,21 @@
          "class":"DepictionStackView",
          "tabname":"Changelog",
          "views":[
+           {
+              "class":"DepictionSubheaderView",
+              "title":"Version 1.2.1"
+           },
+           {
+              "class":"DepictionMarkdownView",
+              "markdown":"- Added 1, 2 or 3 tap to show Player."
+           }
             {
                "class":"DepictionSubheaderView",
                "title":"Version 1.2"
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"- Added support for iOS 15 and up Rootless Jailbreaks"
+               "markdown":"- Added support for iOS 15 and up Rootless Jailbreaks."
             }
          ]
       }
