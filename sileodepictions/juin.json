@@ -50,7 +50,14 @@
             {
                "class":"DepictionMarkdownView",
                "markdown":"- Added support for iOS 15 and up Rootless Jailbreaks."
-            }
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"#fbcb99"
+
+            },
          ]
       }
    ],
