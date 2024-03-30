@@ -321,12 +321,12 @@ Maintainer: zSaaiq <kevin.felix90@gmx.de>
 Installed-Size: 168
 Depends: firmware (>= 15.0)
 Conflicts: love.litten.libkitten
-Provides: love.litten.libkitten (=1.3.3)
+Provides: love.litten.libkitten (=1.5)
 Filename: ./debs/dev.traurige.libkitten_1.5_iphoneos-arm64.deb
-Size: 7058
-MD5sum: 1849eba05c2db1ddf39b97a8137a51c6
-SHA1: 4a412dbeda3e082808129890b1f9cf2970142269
-SHA256: c2be06783a476b63b0955213da6b540a908a24613bbbc7c0d669cd9118a195ac
+Size: 7284
+MD5sum: a90b046eb1974d8db5902a23acca325c
+SHA1: ab49acb408305ae218b959f457ce1c4c44033f18
+SHA256: 6f584a93a2acee4b574784905bb8e5248f6e9ff4ceeb2f77791c5035b9337f33
 Section: System
 Description: Collection of image and color calculations
 Tag: role::developer
@@ -427,6 +427,25 @@ Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/lisa.html
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
 Name: Lisa 💅🏻
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lisa.json
+
+Package: love.litten.rose
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1104
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 15.0), dev.traurige.libkitten (>= 1.3.3)
+Filename: ./debs/love.litten.rose_1.1_iphoneos-arm64.deb
+Size: 378768
+MD5sum: f24cc9db028c5cc2f85a075ca8a73cb5
+SHA1: 09261e5e3a58c9201d8d4753aad141ad437fc448
+SHA256: 4384faeca7372cab3dff954e8c680595194fb6f92c1635889ed3484e45362c53
+Section: Tweaks
+Description: The most advanced and feature rich system wide haptic feedback tweak
+Author: Litten
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/rose.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/Rose.png
+Name: Rose 🌹
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/rose.json
 
 Package: love.litten.violet
 Version: 1.8

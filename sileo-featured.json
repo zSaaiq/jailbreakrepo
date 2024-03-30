@@ -29,6 +29,11 @@
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/Lisa.png"
         },
         {
+            "title": "Rose",
+            "package": "love.litten.rose",
+            "url": "https://zsaaiq.github.io/jailbreakrepo/features/Rose.png"
+        },
+        {
             "title": "SpringHooker",
             "package": "me.zsaaiq.springhooker",
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/springhooker.png"
