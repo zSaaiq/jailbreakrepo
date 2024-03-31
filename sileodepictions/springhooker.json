@@ -24,7 +24,7 @@
 <p>• disable backlightdim when press lock Button.</p><br>
 <p>• disable icon fly-in if device is unlocked.</p><br>
 <p>• disable clock Animation on SpringBoard.</p><br>
-<p>• disable idle Timer in LS completly (device won't go to black screen) or set custom timers in ms. (Only iOS 15.)</p>
+<p>• disable idle Timer in LS completly (device won't go to black screen) or set custom timers in ms. (Only iOS 15.)</p>",
                "useSpacing":true,
                "useRawFormat":true
             }
