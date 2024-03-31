@@ -13,7 +13,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"<p>The most advanced and feature rich system wide haptic feedback tweak</p><br><p>Currently enable toggle will go off, but tweak will work.</p>",
+               "markdown":"<p>The most advanced and feature rich system wide haptic feedback tweak<p><br><p>Currently enable toggle will go off, but tweak will work.</p>",
                "useSpacing":true,
                "useRawFormat":true
             }
