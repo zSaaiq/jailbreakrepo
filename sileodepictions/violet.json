@@ -27,6 +27,13 @@
                "markdown":"<p>Sweet addition to your wallpaper</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"#c7b6fb"
+
             }
          ],
          "xPadding":10

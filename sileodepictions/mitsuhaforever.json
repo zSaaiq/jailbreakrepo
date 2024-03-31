@@ -27,6 +27,13 @@
                "markdown":"<p>Universal iOS Audio Visualizer</p><br><p>iOS 15.0.x might be not supported so iOS 15.1+</p><br><p>Currently supported Apps:</p><br><p>- YouTubeMusic</p><br><p>- Spotify</p><br><p>- SpringBoard, Lockscreen MusicPlayer, Lockscreen Bottom, ControlCenter</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"#dac9bf"
+
             }
          ],
          "xPadding":10

@@ -27,6 +27,13 @@
                "markdown":"<p>Annoying Goose for iOS 15 and up</p><br><p>Can bring custom Notes and Images.</p><br><p>Mods: Joethegoose and Colorfulgoose are included.</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"#f47f1b"
+
             }
          ],
          "xPadding":10

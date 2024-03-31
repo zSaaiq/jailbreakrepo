@@ -27,6 +27,13 @@
                "markdown":"<p>Spotify inspired MediaPlayer for iOS Lockscreen</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"#fbcb99"
+
             }
          ],
          "xPadding":10
@@ -50,14 +57,7 @@
             {
                "class":"DepictionMarkdownView",
                "markdown":"- Added support for iOS 15 and up Rootless Jailbreaks."
-            },
-            {
-               "class":"DepictionButtonView",
-               "text":"Buy me a Coffe",
-               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
-               "tintColor":"#fbcb99"
-
-            },
+            }
          ]
       }
    ],

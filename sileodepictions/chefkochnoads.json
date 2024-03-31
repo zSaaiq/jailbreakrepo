@@ -16,6 +16,13 @@
                "markdown":"<p>hides Ads in Chefkoch iOS Apllication</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"green"
+
             }
          ],
          "xPadding":10

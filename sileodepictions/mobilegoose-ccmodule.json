@@ -16,6 +16,13 @@
                "markdown":"<p>CCModule for MobileGoose</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"gray"
+
             }
          ],
          "xPadding":10
@@ -35,7 +42,7 @@
          ]
       }
    ],
-   "tintColor": "#141414",
+   "tintColor": "gray",
    "backgroundColor": "#333332",
    "headerImage":"https://zsaaiq.github.io/jailbreakrepo/features/mobilegoose-ccmodule.png"
 }

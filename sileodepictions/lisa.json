@@ -27,6 +27,13 @@
                "markdown":"<p>Full incoming OLED notifications</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"#f2baeb"
+
             }
          ],
          "xPadding":10

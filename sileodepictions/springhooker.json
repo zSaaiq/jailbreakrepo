@@ -16,6 +16,13 @@
                "markdown":"<p>Change things that affect the iOS SpringBoard</p><br><p>Main Features</p><br><p>• set custom radius for Appswitcher Cards.</p><br><p>• remove Torch or Camera Button in LS.</p><br><p>• disable TodayView in LS</p><br><p>• Remove EU vol Limit.</p><br><p>• disable display wake if Music is playing and you press vol up/down</p><br><p>• disable display wake if Message received.</p><br><p>• disable backlightdim when press lock Button.</p><br><p>• disable icon fly-in if device is unlocked.</p><br><p>• disable clock Animation on SpringBoard.</p><br><p>• disable idle Timer in LS completly (device won't go to black screen) or set custom timers in ms. (Only iOS 15.)</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"#1abc9c"
+
             }
          ],
          "xPadding":10

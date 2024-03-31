@@ -16,6 +16,13 @@
                "markdown":"<p>Hide the Cast Button in the whole YTMusic iOS Application</p>",
                "useSpacing":true,
                "useRawFormat":true
+            },
+            {
+               "class":"DepictionButtonView",
+               "text":"Buy me a Coffe",
+               "action":"https://www.paypal.com/paypalme/zsaaiq/2",
+               "tintColor":"red"
+
             }
          ],
          "xPadding":10
