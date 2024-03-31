@@ -14,16 +14,6 @@
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/Juin.png"
         },
         {
-            "title": "Violet",
-            "package": "love.litten.violet",
-            "url": "https://zsaaiq.github.io/jailbreakrepo/features/Violet.png"
-        },
-        {
-            "title": "Dress",
-            "package": "love.litten.dress",
-            "url": "https://zsaaiq.github.io/jailbreakrepo/features/Dress.png"
-        },
-        {
             "title": "Lisa",
             "package": "love.litten.lisa",
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/Lisa.png"
@@ -34,6 +24,11 @@
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/Rose.png"
         },
         {
+            "title": "Violet",
+            "package": "love.litten.violet",
+            "url": "https://zsaaiq.github.io/jailbreakrepo/features/Violet.png"
+        },
+        {
             "title": "SpringHooker",
             "package": "me.zsaaiq.springhooker",
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/springhooker.png"
@@ -42,6 +37,11 @@
             "title": "MobileGoose",
             "package": "com.pixelomer.mobilegoose",
             "url": "https://zsaaiq.github.io/jailbreakrepo/features/mobilegoose.png"
+        },
+        {
+            "title": "Dress",
+            "package": "love.litten.dress",
+            "url": "https://zsaaiq.github.io/jailbreakrepo/features/Dress.png"
         }
     ]
   }
