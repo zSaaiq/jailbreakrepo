@@ -35,6 +35,14 @@
          "class":"DepictionStackView",
          "tabname":"Changelog",
          "views":[
+           {
+              "class":"DepictionSubheaderView",
+              "title":"Version 2.2.4"
+           },
+           {
+              "class":"DepictionMarkdownView",
+              "markdown":"- Added Mini Wave and Dont hide MiniWave inside YouTubeMusic."
+           },
             {
                "class":"DepictionSubheaderView",
                "title":"Version 2.2.3"

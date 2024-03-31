@@ -239,6 +239,26 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/MitsuhaForever.png
 Name: Mitsuha Forever
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mitsuhaforever.json
 
+Package: com.ryannair05.mitsuhaforever
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq
+Installed-Size: 1092
+Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.ryannair05.libmitsuhaforever (>=2.0), com.ryannair05.audiosnapshotserver (>=2.3), ws.hbang.alderis
+Replaces: com.ryannair05.mitsuhaforever (<=2), com.ryannair05.mitsuhaforever (=1.4.2), com.ryannair05.mitsuhaforever (=1.4.3), com.ryannair05.libmitsuhaforever (<=2), com.addiezone.onemitsuhadopaminesettings, com.addiezone.twomitsuhadopaminesettings, com.addiezone.threemitsuhadopaminesettings, com.addiezone.fourmitsuhadopaminesettings, com.addiezone.fivemitsuhadopaminesettings, com.addiezone.sixmitsuhadopaminesettings
+Filename: ./debs/com.ryannair05.mitsuhaforever_2.2.4_iphoneos-arm64.deb
+Size: 98680
+MD5sum: 4928ba494ebbd2a754d5b57024f7c78f
+SHA1: df2d603ab63d105f6739869a1c7440b572c64314
+SHA256: 9645c8b0fcfae4eca3f0a1d98b17e277d85c68a73a5c65190efa306308964b5b
+Section: Tweaks
+Description: Universal audio visualizer for iOS currently Music Support is  removed. Spotify wavehigh is fixed, ControlCenter, Springboard, SpringboardCoverSheet and LockscreenMusicPlayer are working. preferences are also fixed.
+Author: zSaaiq, Ryan Nair, ConorTheDev, and Nepeta
+Depiction: https://zsaaiq.github.io/jailbreakrepo/repo/depictions/mitsuhaforever.html
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/MitsuhaForever.png
+Name: Mitsuha Forever
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/mitsuhaforever.json
+
 Package: com.zsaaiq.chefkochnoads
 Version: 1.0
 Architecture: iphoneos-arm64
