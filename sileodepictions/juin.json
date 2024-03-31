@@ -42,7 +42,7 @@
            {
               "class":"DepictionMarkdownView",
               "markdown":"- Added 1, 2 or 3 tap to show Player."
-           }
+           },
             {
                "class":"DepictionSubheaderView",
                "title":"Version 1.2"
