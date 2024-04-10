@@ -32,63 +32,6 @@ Description: An awesome library to get current weather which provides by iOS Wea
 Author: Soongyu Kwon
 Name: libPDDokdo
 
-Package: com.pixelomer.mobilegoose
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq
-Installed-Size: 1340
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.pixelomer.mobilegoose_2.0_iphoneos-arm64.deb
-Size: 606062
-MD5sum: 879b7ff2338faf2a4f72946b1512eac9
-SHA1: 62e95175c18e2185bf67c190a5a3eda900b2e79c
-SHA256: b6fe137b2be3148f2e177b3a6f95c45ade55a6245b7462aef2ad5f3a0598699b
-Section: Tweaks
-Description: An annoying goose for your Rootless iOS 15-16 iDevice
-Author: pixelomer, zsaaiq
-Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/MobileGoose.html
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
-Name: MobileGoose
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/MobileGoose.json
-
-Package: com.pixelomer.mobilegoose
-Version: 2.1
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq
-Installed-Size: 1340
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.pixelomer.mobilegoose_2.1_iphoneos-arm64.deb
-Size: 606434
-MD5sum: 99d1a65305b94a3d54d54b5cdaa15b29
-SHA1: f8527f90584eb5cb4b9d44ed2cb1e748c9045852
-SHA256: 6bacf5b399164974e915c95cab3c373dc8f5fe10d5dcbdc350eab3c29df71061
-Section: Tweaks
-Description: An annoying goose for your Rootless iOS 15-16 iDevice
-Author: pixelomer, zsaaiq
-Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/MobileGoose.html
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
-Name: MobileGoose
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/MobileGoose.json
-
-Package: com.pixelomer.mobilegoose
-Version: 2.1.1
-Architecture: iphoneos-arm64
-Maintainer: zsaaiq
-Installed-Size: 1340
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.pixelomer.mobilegoose_2.1.1_iphoneos-arm64.deb
-Size: 605998
-MD5sum: 5d30a9dcf94f9144089dcd8d5829dee8
-SHA1: 84159ace39ec78e8b821cc7e26eef8a5f7ae79c0
-SHA256: 329e47a605bfc373894f91b1cc44efd42816e43236cccb8a4cdac13084104dc7
-Section: Tweaks
-Description: An annoying goose for your Rootless iOS 15-16 iDevice
-Author: pixelomer, zsaaiq
-Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/MobileGoose.html
-Icon: https://zsaaiq.github.io/jailbreakrepo/images/MobileGoose.png
-Name: MobileGoose
-Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/MobileGoose.json
-
 Package: com.ryannair05.audiosnapshotserver
 Version: 2.3
 Architecture: iphoneos-arm64
