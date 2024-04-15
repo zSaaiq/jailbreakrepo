@@ -44,6 +44,14 @@
          "views":[
            {
               "class":"DepictionSubheaderView",
+              "title":"Version 1.2.2"
+           },
+           {
+              "class":"DepictionMarkdownView",
+              "markdown":"- Added 2 new Content modes for the CoverArt (AspectFit and ScaleToFill)"
+           },
+           {
+              "class":"DepictionSubheaderView",
               "title":"Version 1.2.1"
            },
            {
