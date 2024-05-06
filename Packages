@@ -239,6 +239,24 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/ftumblrads.png
 Name: F Tumblr Ads
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/ftumblrads.json
 
+Package: com.zsaaiq.ftumblrads
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: zSaaiq <kevin.felix90@gmx.de>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.zsaaiq.ftumblrads_2.0.1_iphoneos-arm64.deb
+Size: 1782
+MD5sum: 220b68607493cc85dca285c0ffb94b27
+SHA1: 579fcc89c092e75f387445d3082fcf2e92b537e4
+SHA256: d971e461423b84f62e2ae43ba881e1934021ee9596c0cc15232fb57a5887afe7
+Section: Tweaks
+Description: Remove Ads in Tumblr App Supports latest version.
+Author: zSaaiq <kevin.felix90@gmx.de>
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/ftumblrads.png
+Name: F Tumblr Ads
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/ftumblrads.json
+
 Package: com.zsaaiq.ytmusicnocast
 Version: 1.0
 Architecture: iphoneos-arm64
