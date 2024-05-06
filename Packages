@@ -221,6 +221,24 @@ Icon: https://zsaaiq.github.io/jailbreakrepo/images/ChefkochNoAds.png
 Name: ChefkochNoAds
 Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/chefkochnoads.json
 
+Package: com.zsaaiq.ftumblrads
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: zSaaiq <kevin.felix90@gmx.de>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.zsaaiq.ftumblrads_2.0.1_iphoneos-arm.deb
+Size: 1712
+MD5sum: 4385ead2476dc66508bb916ade95eea7
+SHA1: c861b2153bd9a66b515b71e56c03da7ee53ec2db
+SHA256: 8ae44f14e44bd01a731cc38bba209c24c0c8be5b182c73a25a5525abbbd961ed
+Section: Tweaks
+Description: Remove Ads in Tumblr App Supports latest version.
+Author: zSaaiq <kevin.felix90@gmx.de>
+Icon: https://zsaaiq.github.io/jailbreakrepo/images/ftumblrads.png
+Name: F Tumblr Ads
+Sileodepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/ftumblrads.json
+
 Package: com.zsaaiq.ytmusicnocast
 Version: 1.0
 Architecture: iphoneos-arm64
