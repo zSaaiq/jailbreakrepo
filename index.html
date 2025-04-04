@@ -1,92 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to my Jailbreak repo</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      overflow-y: auto;
-      overscroll-behavior-y: none;
-    }
-    @media only screen and (max-width: 414px) {
-      .centered {
-        padding: 20px;
-      }
-      .ios-image {
-        margin-bottom: 20px;
-      }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>zSaaiq Jailbreakrepo</title>
+  <link rel="stylesheet" href="./7css.css">
 </head>
+<body style="margin: 0; background-color: #008080; height: 100vh; display: flex; justify-content: center; align-items: center;">
 
-<body>
-  <div id="snow"></div>
-  <div class="centered">
-    <h1>Welcome to my Jailbreak repo!</h1>
-    <h1>Mitsuha Forever</h1>
-    <div class="ios-image">
-      <img src="images/MitsuhaForever.png" alt="iOS-shaped image">
+  <div class="window active" style="max-width: 400px">
+    <div class="title-bar">
+      <div class="title-bar-text">Welcome to my Jailbreak repo</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
     </div>
-    <h3>Universal iOS audio visualizer.</h3>
-    <h1>Juin</h1>
-    <div class="ios-image">
-      <img src="images/Juin.png" alt="iOS-shaped image">
-    </div>
-    <h3>Spotify like Music Player</h3>
-    <h3>for iOS Lockscreen</h3>
-    <h1>Lisa</h1>
-    <div class="ios-image">
-      <img src="images/Lisa.png" alt="iOS-shaped image">
-    </div>
-    <h3>Full OLED notifications</h3>
-    <h1>SpringHooker</h1>
-    <div class="ios-image">
-      <img src="images/SpringHooker.png" alt="iOS-shaped image">
-    </div>
-    <h3>changes things that</h3>
-    <h3>affect the SpringBoard</h3>
-    <div class="button-container">
-      <a button id="sileoButton" href="sileo://source/https://zsaaiq.github.io/jailbreakrepo" class="button sileo">Add to Sileo</a>
-      <a button id="zebraButton" href="zbra://sources/add/https://zsaaiq.github.io/jailbreakrepo" class="button zebra">Add to Zebra</a>
+    <div class="window-body has-space">
+      <menu role="tablist" aria-label="Window with Tabs">
+        <button role="tab" aria-controls="welcome" aria-selected="true">Welcome Page</button>
+        <button role="tab" aria-controls="thanks">Special Thanks</button>
+        <button role="tab" aria-controls="social">Social Media / GitHub</button>
+      </menu>
+      <article role="tabpanel" id="welcome">
+        <p>Welcome to my Jailbreakrepo!</p>
+        <p>below you can see the tweaks on my repo</p>
+        <ul class="tree-view has-collapse-button has-connector has-container">
+          <details closed="">
+            <summary>SpringHooker</summary>
+                <ul>
+                  <li>changes things that affect the SpringBoard</li>
+                  <li>supports normal and rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>ChefkochNoAds</summary>
+                <ul>
+                  <li>hides ads in the Chefkoch Application on iOS.</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>YTMusicNoCast</summary>
+                <ul>
+                  <li>hides the Google cast button in the whole YTMusic app.</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>MobileGooseModule</summary>
+                <ul>
+                  <li>Control Center module to toggle MobileGoose on/off</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>BatteryBuddy</summary>
+                <ul>
+                  <li>Battery indicator, but cute</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>Juin 🏖</summary>
+                <ul>
+                  <li>Spotify like Music Player for iOS Lockscreen</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>Lisa 💅🏻</summary>
+                <ul>
+                  <li>Full OLED notifications</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>Dress 👗</summary>
+                <ul>
+                  <li>Dress up your lock screen</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>Rose 🌹</summary>
+                <ul>
+                  <li>The most advanced and feature rich system wide haptic feedback tweak</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>Violet 🎀</summary>
+                <ul>
+                  <li>Sweet addition to your wallpaper</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+          <details closed="">
+            <summary>Mitsuha Forever (deprecated)</summary>
+                <ul>
+                  <li>Universal iOS audio visualizer</li>
+                  <li>Mitsuha with YT Music support</li>
+                  <li>supports iOS 15 rootless Jailbreaks</li>
+                </ul>
+
+          </details>
+        </ul>
+        <p>here you can add the repo to your packagemanager</p>
+        <section class="field-row">
+          <a href="sileo://source/https://zsaaiq.github.io/jailbreakrepo" class="button default">Add to Sileo</a>
+          <a href="zbra://sources/add/https://zsaaiq.github.io/jailbreakrepo" class="button default">Add to Zebra</a>
+      </section>
+      </article>
+      <article role="tabpanel" hidden id="thanks">
+        <li><strong style="color: red">✨ Special Thanks to: ✨</strong></li>
+        <li><strong style="color: purple">ryannair05</strong> for the great Mitsuha Forever!</li>
+        <li>also to: <strong style="color: purple">cbyrne</strong>, <strong style="color: purple">Nepeta</strong> and <strong style="color: purple">c0ldra1n</strong> for making this possible!</li>
+        <li>my goal was to learn custom injects thats why my fork injects into YT Music.</li>
+        <li>please use the official version from ryannair05 since he updated it far more than me.</li>
+
+        <li>a very special thanks to <strong style="color: purple">AlexandraAurora</strong> aka <strong style="color: purple">Litten</strong> who made the following tweaks possible: Lisa, Juin, Dress, Rose, Violet and BatteryBuddy</li>
+        <li>i only recompiled these tweaks for iOS 15 rootless enviroments.</li>
+        <li><strong style="color: purple">khang-nd</strong> for creating 7css this Windows 7 css Style!</li>
+        <p>you can find his awesome project here</p>
+        <a href="https://github.com/khang-nd/7.css" class="button default">7.css GitHub</a>
+
+      </article>
+
+      <article role="tabpanel" hidden id="social">
+        <p>you can follow me on x.com here</p>
+          <a href="https://x.com/0x1585d65f0" class="button default">follow me on x</a>
+          <p>you can follow me on GitHub here</p>
+            <a href="https://github.com/zSaaiq" class="button default">follow me on GitHub</a>
+
+      </article>
+      <section class="field-row" style="justify-content: flex-end">
+        <button class="default">OK</button>
+        <button>Cancel</button>
+      </section>
     </div>
   </div>
+
   <script>
-    function createSnowflakes() {
-      const snowContainer = document.getElementById('snow');
-      const flakes = [];
-      const numFlakes = 50;
+    const tabs = document.querySelectorAll('[role="tab"]');
+    const tabPanels = document.querySelectorAll('[role="tabpanel"]');
 
-      for (let i = 0; i < numFlakes; i++) {
-        const flake = document.createElement('div');
-        flake.className = 'flake';
-        flake.style.width = Math.random() * 8 + 'px';
-        flake.style.height = flake.style.width;
-        flake.style.background = 'rgba(255, 255, 255, ' + (Math.random() * 0.5 + 0.5) + ')';
-        flake.style.left = Math.random() * 100 + '%';
-        flake.style.animationDuration = Math.random() * 4 + 2 + 's';
-        flakes.push(flake);
-        snowContainer.appendChild(flake);
-      }
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Tabs deaktivieren
+        tabs.forEach(t => t.setAttribute('aria-selected', 'false'));
+        tab.setAttribute('aria-selected', 'true');
 
-      return flakes;
-    }
+        // Panels ausblenden
+        tabPanels.forEach(panel => panel.hidden = true);
 
-    createSnowflakes();
-
-    function isGerman() {
-      return navigator.language.startsWith('de');
-    }
-
-    function updateButtonText() {
-      if (isGerman()) {
-        document.getElementById('cydiaButton').innerText = 'Hinzufügen zu Cydia';
-        document.getElementById('sileoButton').innerText = 'Hinzufügen zu Sileo';
-        document.getElementById('zebraButton').innerText = 'Hinzufügen zu Zebra';
-      }
-    }
-    updateButtonText();
+        // Aktives Panel einblenden
+        const id = tab.getAttribute('aria-controls');
+        const activePanel = document.getElementById(id);
+        if (activePanel) {
+          activePanel.hidden = false;
+        }
+      });
+    });
   </script>
 </body>
 </html>
